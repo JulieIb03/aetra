@@ -1,0 +1,104 @@
+/* AETRA · Digital design tokens · 1.0
+   Digital overrides requested: #083328 + Montserrat.
+   Brandbook original green (#0C241F) is archived, never silently substituted. */
+@font-face{font-family:'Bodoni Moda';src:url('../assets/fonts/bodoni-moda-regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Bodoni Moda';src:url('../assets/fonts/bodoni-moda-italic.ttf') format('truetype');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:Montserrat;src:url('../assets/fonts/montserrat-regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Montserrat;src:url('../assets/fonts/montserrat-medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:Montserrat;src:url('../assets/fonts/montserrat-semibold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
+:root{
+ --color-primary:#083328;--color-primary-dark:#071E1A;--color-brand-archive:#0C241F;
+ --color-gold:#E6BF84;--color-gold-dark:#A96F33;--color-ivory:#F5F0E7;--color-beige:#C7B39B;--color-white:#FFFFFF;
+ --color-text:#083328;--color-muted:#59645D;--color-muted-inverse:#BDC9C0;--color-error:#8D382E;
+ --color-border:rgb(8 51 40 / .18);--color-border-inverse:rgb(245 240 231 / .2);
+ --surface-dark:var(--color-primary);--surface-dark-deep:var(--color-primary-dark);--surface-light:var(--color-ivory);
+ --surface-dark-glass:rgb(8 51 40 / .82);--surface-light-glass:rgb(245 240 231 / .85);--surface-image-glass:rgb(7 30 26 / .8);
+ --glass-01-blur:8px;--glass-02-blur:16px;--glass-03-blur:24px;
+ --glass-01-opacity:.92;--glass-02-opacity:.82;--glass-03-opacity:.72;
+ --font-editorial:'Bodoni Moda',serif;--font-ui:Montserrat,sans-serif;
+ --space-4:4px;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;--space-32:32px;--space-48:48px;--space-64:64px;--space-80:80px;--space-96:96px;--space-120:120px;--space-160:160px;
+ --radius-small:4px;--radius-medium:10px;--radius-large:20px;--radius-pill:999px;
+ --container-max:1280px;--gutter:64px;--grid-columns:12;--column-gap:24px;--section-spacing:96px;
+ --motion-fast:160ms;--motion-normal:320ms;--motion-slow:720ms;--motion-ease:cubic-bezier(.22,.61,.36,1);--motion-exit:cubic-bezier(.4,0,1,1);
+ --shadow-glass:0 12px 32px rgb(7 30 26 / .07),inset 0 1px 0 rgb(255 255 255 / .15);
+ --stroke-fine:1px;--focus-width:2px;--focus-offset:4px;
+}
+@media(max-width:1100px){:root{--gutter:40px;--column-gap:20px;--section-spacing:80px}}
+@media(max-width:900px){:root{--grid-columns:8;--gutter:32px;--section-spacing:64px}}
+@media(max-width:599px){:root{--grid-columns:4;--gutter:24px;--column-gap:16px;--section-spacing:64px}}
+@media(prefers-reduced-motion:reduce){:root{--motion-fast:0ms;--motion-normal:0ms;--motion-slow:0ms}}
+
+:root{
+ --type-display-size:clamp(3rem, 5.5vw, 5rem);
+ --type-display-line-height:1.06;
+ --type-display-letter-spacing:-.045em;
+ --type-display-weight:400;
+ --type-display-max-width:16ch;
+ --type-h1-size:clamp(2.5rem, 4.4vw, 4rem);
+ --type-h1-line-height:1.12;
+ --type-h1-letter-spacing:-.035em;
+ --type-h1-weight:400;
+ --type-h1-max-width:18ch;
+ --type-h2-size:clamp(2rem, 3.4vw, 3rem);
+ --type-h2-line-height:1.16;
+ --type-h2-letter-spacing:-.03em;
+ --type-h2-weight:400;
+ --type-h2-max-width:24ch;
+ --type-h3-size:clamp(1.5rem, 2.4vw, 2rem);
+ --type-h3-line-height:1.2;
+ --type-h3-letter-spacing:-.02em;
+ --type-h3-weight:400;
+ --type-h3-max-width:28ch;
+ --type-h4-size:1.125rem;
+ --type-h4-line-height:1.45;
+ --type-h4-letter-spacing:-.01em;
+ --type-h4-weight:500;
+ --type-h4-max-width:36ch;
+ --type-body-large-size:1.125rem;
+ --type-body-large-line-height:1.75;
+ --type-body-large-letter-spacing:0em;
+ --type-body-large-weight:400;
+ --type-body-large-max-width:52ch;
+ --type-body-size:1rem;
+ --type-body-line-height:1.75;
+ --type-body-letter-spacing:0em;
+ --type-body-weight:400;
+ --type-body-max-width:64ch;
+ --type-body-small-size:.875rem;
+ --type-body-small-line-height:1.65;
+ --type-body-small-letter-spacing:0em;
+ --type-body-small-weight:400;
+ --type-body-small-max-width:64ch;
+ --type-label-size:.75rem;
+ --type-label-line-height:1.5;
+ --type-label-letter-spacing:.04em;
+ --type-label-weight:500;
+ --type-label-max-width:40ch;
+ --type-caption-size:.75rem;
+ --type-caption-line-height:1.6;
+ --type-caption-letter-spacing:.01em;
+ --type-caption-weight:400;
+ --type-caption-max-width:64ch;
+ --type-button-size:.8125rem;
+ --type-button-line-height:1.3;
+ --type-button-letter-spacing:.01em;
+ --type-button-weight:500;
+ --type-button-max-width:28ch;
+ --type-eyebrow-size:.6875rem;
+ --type-eyebrow-line-height:1.5;
+ --type-eyebrow-letter-spacing:.16em;
+ --type-eyebrow-weight:500;
+ --type-eyebrow-max-width:48ch;
+}
+.type-display{font-family:var(--font-editorial);font-size:var(--type-display-size);line-height:var(--type-display-line-height);letter-spacing:var(--type-display-letter-spacing);font-weight:var(--type-display-weight);max-width:var(--type-display-max-width)}
+.type-h1{font-family:var(--font-editorial);font-size:var(--type-h1-size);line-height:var(--type-h1-line-height);letter-spacing:var(--type-h1-letter-spacing);font-weight:var(--type-h1-weight);max-width:var(--type-h1-max-width)}
+.type-h2{font-family:var(--font-editorial);font-size:var(--type-h2-size);line-height:var(--type-h2-line-height);letter-spacing:var(--type-h2-letter-spacing);font-weight:var(--type-h2-weight);max-width:var(--type-h2-max-width)}
+.type-h3{font-family:var(--font-editorial);font-size:var(--type-h3-size);line-height:var(--type-h3-line-height);letter-spacing:var(--type-h3-letter-spacing);font-weight:var(--type-h3-weight);max-width:var(--type-h3-max-width)}
+.type-h4{font-family:var(--font-ui);font-size:var(--type-h4-size);line-height:var(--type-h4-line-height);letter-spacing:var(--type-h4-letter-spacing);font-weight:var(--type-h4-weight);max-width:var(--type-h4-max-width)}
+.type-body-large{font-family:var(--font-ui);font-size:var(--type-body-large-size);line-height:var(--type-body-large-line-height);letter-spacing:var(--type-body-large-letter-spacing);font-weight:var(--type-body-large-weight);max-width:var(--type-body-large-max-width)}
+.type-body{font-family:var(--font-ui);font-size:var(--type-body-size);line-height:var(--type-body-line-height);letter-spacing:var(--type-body-letter-spacing);font-weight:var(--type-body-weight);max-width:var(--type-body-max-width)}
+.type-body-small{font-family:var(--font-ui);font-size:var(--type-body-small-size);line-height:var(--type-body-small-line-height);letter-spacing:var(--type-body-small-letter-spacing);font-weight:var(--type-body-small-weight);max-width:var(--type-body-small-max-width)}
+.type-label{font-family:var(--font-ui);font-size:var(--type-label-size);line-height:var(--type-label-line-height);letter-spacing:var(--type-label-letter-spacing);font-weight:var(--type-label-weight);max-width:var(--type-label-max-width)}
+.type-caption{font-family:var(--font-ui);font-size:var(--type-caption-size);line-height:var(--type-caption-line-height);letter-spacing:var(--type-caption-letter-spacing);font-weight:var(--type-caption-weight);max-width:var(--type-caption-max-width)}
+.type-button{font-family:var(--font-ui);font-size:var(--type-button-size);line-height:var(--type-button-line-height);letter-spacing:var(--type-button-letter-spacing);font-weight:var(--type-button-weight);max-width:var(--type-button-max-width)}
+.type-eyebrow{font-family:var(--font-ui);font-size:var(--type-eyebrow-size);line-height:var(--type-eyebrow-line-height);letter-spacing:var(--type-eyebrow-letter-spacing);font-weight:var(--type-eyebrow-weight);max-width:var(--type-eyebrow-max-width)}
