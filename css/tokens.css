@@ -1,11 +1,6 @@
 /* AETRA · Digital design tokens · 1.0
    Digital overrides requested: #083328 + Montserrat.
    Brandbook original green (#0C241F) is archived, never silently substituted. */
-@font-face{font-family:'Bodoni Moda';src:url('../assets/fonts/bodoni-moda-regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:'Bodoni Moda';src:url('../assets/fonts/bodoni-moda-italic.ttf') format('truetype');font-weight:400;font-style:italic;font-display:swap}
-@font-face{font-family:Montserrat;src:url('../assets/fonts/montserrat-regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:Montserrat;src:url('../assets/fonts/montserrat-medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
-@font-face{font-family:Montserrat;src:url('../assets/fonts/montserrat-semibold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
 :root{
  --color-primary:#083328;--color-primary-dark:#071E1A;--color-brand-archive:#0C241F;
  --color-gold:#E6BF84;--color-gold-dark:#A96F33;--color-ivory:#F5F0E7;--color-beige:#C7B39B;--color-white:#FFFFFF;

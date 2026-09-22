@@ -15,7 +15,7 @@ Las instrucciones expresas del usuario prevalecen sobre los documentos: #083328 
 
 ## Estructura de archivos
 
-- `css/tokens.css`: paleta, tipografía, espacio, radios, superficies y motion. Incluye fuentes locales.
+- `css/tokens.css`: paleta, tipografía, espacio, radios, superficies y motion. Las fuentes (Bodoni Moda y Montserrat) se cargan desde Google Fonts mediante `<link>` en el `<head>` de cada página.
 - `css/components.css`: base y componentes reutilizables, layout, accesibilidad y responsive.
 - `css/guide.css`: composición exclusiva de la guía; no trasladar íntegramente a páginas futuras.
 - `js/design-system.js`: comportamiento demostrativo: diálogos, pestañas, validación, cuestionario, copia de colores, reproducción local y motion.

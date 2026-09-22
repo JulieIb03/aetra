@@ -38,7 +38,7 @@ Archivos descargados desde Google Fonts y almacenados localmente:
 - Bodoni Moda regular 400 e italic 400.
 - Montserrat regular 400, medium 500 y semibold 600.
 
-Las licencias SIL Open Font License se incluyen en `assets/fonts/OFL-Bodoni-Moda.txt` y `assets/fonts/OFL-Montserrat.txt`, obtenidas del repositorio oficial google/fonts. No hay solicitudes de tipografía a terceros al abrir la guía.
+Bodoni Moda y Montserrat se cargan desde Google Fonts (licencia SIL Open Font License); no hay archivos de fuente en el repositorio.
 
 ## Video
 
