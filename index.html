@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Montserrat:wght@400;500;600&display=swap"><link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/components.css">
 <link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.classList.add('is-loading')</script>
 <script src="js/site.js" defer>
 </script>
 <noscript>
@@ -16,6 +17,10 @@
 </noscript>
 </head>
 <body id="inicio" class="page-index">
+<div class="preloader" id="preloader" aria-hidden="true">
+<img class="preloader-logo" src="assets/logo-vertical-web.png" alt="" width="720" height="979">
+<span class="preloader-line"></span>
+</div>
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 <defs>
@@ -84,6 +89,16 @@
 </symbol>
 </defs>
 </svg>
+<div class="topbar surface-dark-deep">
+<div class="container topbar-inner">
+<a class="topbar-contact" href="https://wa.me/578888888" target="_blank" rel="noopener"><svg class="topbar-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.8 8.2c.2-.4.5-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c.6 1.2 1.6 2.1 2.8 2.7l.6-.6c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3-.1.6-.5.8-.5.3-1.2.4-1.9.2-2.6-.8-4.6-2.8-5.4-5.4-.2-.8 0-1.6.5-2.1Z"/></svg><span>Escríbenos</span> <span class="topbar-number">+57 8888888</span></a>
+<div class="lang-switch" role="group" aria-label="Idioma">
+<a href="index.html" lang="es" aria-current="true">ES</a>
+<span aria-hidden="true">/</span>
+<a href="#" lang="en" title="English version coming soon">EN</a>
+</div>
+</div>
+</div>
 <header class="site-header surface-dark">
 <div class="container header-inner">
 <a class="brand" href="index.html" aria-label="AETRA, inicio">
@@ -92,7 +107,14 @@
 <nav class="desktop-nav" aria-label="Navegación principal">
 <a href="aetra.html">Sobre nosotros</a>
 <a href="index.html#dra-paola-parra">Dra. Paola Parra</a>
-<a href="programas.html">Programas</a>
+<div class="nav-item has-sub">
+<a href="programas.html" aria-haspopup="true">Programas<svg class="icon nav-caret" aria-hidden="true"><use href="#i-chevron"></use></svg></a>
+<div class="nav-sub" role="group" aria-label="Programas AETRA">
+<a class="program-card program-card--core program-card--mini" href="programas.html#core" aria-label="AETRA CORE"><svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg><span class="program-card-name"><span>AETRA</span> CORE</span></a>
+<a class="program-card program-card--advanced program-card--mini" href="programas.html#advanced" aria-label="AETRA ADVANCED"><svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg><span class="program-card-name"><span>AETRA</span> ADVANCED</span></a>
+<a class="program-card program-card--gold program-card--mini" href="programas.html#gold" aria-label="AETRA GOLD"><svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg><span class="program-card-name"><span>AETRA</span> GOLD</span></a>
+</div>
+</div>
 <a href="equipo.html">Equipo y tecnología</a>
 </nav>
 <a class="button button--secondary nav-cta" href="valoracion-inicial.html">Agenda tu valoración<svg class="icon" aria-hidden="true">
@@ -152,6 +174,7 @@
 </script>
 <noscript><img class="hero-image" src="assets/abuelo-futbol.png" alt="Abuelo jugando fútbol con su nieto" width="1672" height="941"></noscript>
 <div class="container hero-content">
+<img class="hero-logo reveal-up" src="assets/logo-vertical-hero.png" alt="AETRA" width="684" height="660">
 <h1 class="type-display text-reveal reveal-up">Más vida<br>para tus años.</h1>
 <p class="type-body-large reveal-up">Damos atención a su bienestar por medio de la ciencia y la tecnología para mejorar tu calidad de vida.</p>
 <div class="actions reveal-up">
@@ -255,6 +278,9 @@
 </div>
 <div class="process-track">
 <article class="process-step reveal-up" style="--stagger:0">
+<figure class="step-media image-reveal">
+<img src="assets/movement-study.png" alt="Paciente durante una evaluación de movilidad" loading="lazy">
+</figure>
 <div class="step-marker">
 <span>01</span>
 </div>
@@ -262,6 +288,9 @@
 <p class="body-small muted">Aliqua ut enim ad minim veniam quis.</p>
 </article>
 <article class="process-step reveal-up" style="--stagger:1">
+<figure class="step-media image-reveal">
+<img class="step-media-zoom" src="assets/draparra-croma.png" alt="La Dra. Paola Parra" loading="lazy">
+</figure>
 <div class="step-marker">
 <span>02</span>
 </div>
@@ -269,6 +298,9 @@
 <p class="body-small muted">Exercitation ullamco laboris nisi ut aliquip ex ea.</p>
 </article>
 <article class="process-step reveal-up" style="--stagger:2">
+<figure class="step-media image-reveal">
+<img src="assets/glass-study.png" alt="Objeto de vidrio que refleja la luz, símbolo de un plan a medida" loading="lazy">
+</figure>
 <div class="step-marker">
 <span>03</span>
 </div>
@@ -276,12 +308,22 @@
 <p class="body-small muted">Consequat duis aute irure dolor in.</p>
 </article>
 <article class="process-step reveal-up" style="--stagger:3">
+<figure class="step-media image-reveal">
+<img src="assets/abuelo-futbol.png" alt="Abuelo jugando fútbol con su nieto" loading="lazy">
+</figure>
 <div class="step-marker">
 <span>04</span>
 </div>
 <h3 class="type-h3">Acompañar</h3>
 <p class="body-small muted">In voluptate velit esse cillum.</p>
 </article>
+</div>
+<div class="process-video">
+<!-- Video pendiente: añadir data-video="ruta/al/video.mp4" para reproducirlo en su lugar. -->
+<button class="video-preview image-reveal" type="button" aria-label="Reproducir video: conoce AETRA" data-video="">
+<img src="assets/draparra-escritorio.png" alt="" loading="lazy" width="1672" height="941">
+<span class="video-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+</button>
 </div>
 <div class="process-cta">
 <a class="button button--light" href="aetra.html">Conoce el proceso en Aetra<svg class="icon" aria-hidden="true">
@@ -346,39 +388,27 @@
 <section class="section programs-list-section">
 <div class="container section-reveal">
 <h2 class="type-h2 text-reveal reveal-up">Nuestros programas.</h2>
-<div class="solution-grid">
-<article class="solution-card image-card reveal-up" style="--stagger:0">
-<img class="" src="assets/abuelo-nieto.png" alt="Programa Bienestar Fin de Año" loading="lazy" width="1672" height="941">
-<div class="image-card-content">
-<h3 class="type-h3">Programa Bienestar Fin de Año</h3>
-<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
+<div class="program-grid">
+<article class="program-card program-card--core reveal-up" style="--stagger:0">
+<svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg>
+<span class="eyebrow program-card-tier">Nivel esencial</span>
+<h3 class="program-card-name"><span>AETRA</span> CORE</h3>
+<p class="body-small program-card-copy">La base de tu seguimiento de longevidad.</p>
+<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </article>
-<article class="solution-card image-card reveal-up" style="--stagger:1">
-<img class="" src="assets/horizonte-empresario.png" alt="Día de Bienestar corporativo" loading="lazy" width="1672" height="941">
-<div class="image-card-content">
-<h3 class="type-h3">Día de Bienestar corporativo</h3>
-<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
+<article class="program-card program-card--advanced reveal-up" style="--stagger:1">
+<svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg>
+<span class="eyebrow program-card-tier">Nivel avanzado</span>
+<h3 class="program-card-name"><span>AETRA</span> ADVANCED</h3>
+<p class="body-small program-card-copy">Mayor profundidad en medición y acompañamiento.</p>
+<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </article>
-<article class="solution-card image-card reveal-up" style="--stagger:2">
-<img class="" src="assets/mujer-padel.png" alt="Membresía AETRA · Anual" loading="lazy" width="1672" height="941">
-<div class="image-card-content">
-<h3 class="type-h3">Membresía AETRA · Anual</h3>
-<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
+<article class="program-card program-card--gold reveal-up" style="--stagger:2">
+<svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg>
+<span class="eyebrow program-card-tier">Nivel integral</span>
+<h3 class="program-card-name"><span>AETRA</span> GOLD</h3>
+<p class="body-small program-card-copy">La experiencia AETRA más completa y personalizada.</p>
+<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </article>
 </div>
 </div>
@@ -412,5 +442,35 @@
 </div>
 </div>
 </footer>
+<button class="test-fab" type="button" data-open="longevity-test" aria-controls="longevity-test" aria-expanded="false"><svg class="icon" aria-hidden="true"><use href="#i-rhythm"></use></svg><span>Test de longevidad</span></button>
+<dialog id="longevity-test" class="test-dialog" aria-labelledby="lt-title">
+<div class="dialog-top">
+<p class="eyebrow" id="lt-count">Pregunta 1 de 3</p>
+<button class="icon-button" type="button" data-close aria-label="Cerrar test"><svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg></button>
+</div>
+<div class="lt-progress" aria-hidden="true"><span></span><span></span><span></span></div>
+<form id="lt-form" class="lt-step" novalidate>
+<fieldset>
+<legend class="type-h3" id="lt-title" tabindex="-1"></legend>
+<div class="lt-options" id="lt-options"></div>
+</fieldset>
+<p class="field-error lt-error" id="lt-error" role="alert" hidden>Selecciona una opción para continuar.</p>
+<div class="dialog-actions lt-actions">
+<button class="button button--text" type="button" id="lt-back">← Anterior</button>
+<button class="button button--primary" type="submit" id="lt-next">Continuar</button>
+</div>
+</form>
+<div class="lt-result" id="lt-result" hidden>
+<p class="eyebrow">Tu resultado</p>
+<h2 class="type-h2" id="lt-result-title" tabindex="-1"></h2>
+<div class="lt-meter" aria-hidden="true"><span id="lt-meter-bar"></span></div>
+<p class="type-body" id="lt-result-copy"></p>
+<p class="caption muted lt-disclaimer">Resultado orientativo y simulado. No constituye un diagnóstico médico.</p>
+<div class="dialog-actions">
+<a class="button button--primary" href="valoracion-inicial.html">Agenda tu primera visita a AETRA<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<button class="button button--text" type="button" id="lt-restart">Repetir test</button>
+</div>
+</div>
+</dialog>
 </body>
 </html>
