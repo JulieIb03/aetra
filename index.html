@@ -90,11 +90,10 @@
 <img src="assets/aetra-logo.png" width="2172" height="724" alt="AETRA by Dra. Paola Parra. Más vida para tus años.">
 </a>
 <nav class="desktop-nav" aria-label="Navegación principal">
-<a href="aetra.html">AETRA</a>
-<a href="soluciones.html">Soluciones</a>
+<a href="aetra.html">Sobre nosotros</a>
+<a href="index.html#dra-paola-parra">Dra. Paola Parra</a>
 <a href="programas.html">Programas</a>
-<a href="test-longevidad.html">Test de longevidad</a>
-<a href="equipo.html">Equipo</a>
+<a href="equipo.html">Equipo y tecnología</a>
 </nav>
 <a class="button button--secondary nav-cta" href="valoracion-inicial.html">Agenda tu valoración<svg class="icon" aria-hidden="true">
 <use href="#i-arrow">
@@ -120,11 +119,10 @@
 </button>
 </div>
 <nav aria-label="Navegación móvil">
-<a href="aetra.html">AETRA</a>
-<a href="soluciones.html">Soluciones</a>
+<a href="aetra.html">Sobre nosotros</a>
+<a href="index.html#dra-paola-parra">Dra. Paola Parra</a>
 <a href="programas.html">Programas</a>
-<a href="test-longevidad.html">Test de longevidad</a>
-<a href="equipo.html">Equipo</a>
+<a href="equipo.html">Equipo y tecnología</a>
 </nav>
 <a class="button button--light" href="valoracion-inicial.html">Agenda tu valoración<svg class="icon" aria-hidden="true">
 <use href="#i-arrow">
@@ -134,11 +132,26 @@
 </dialog>
 <main id="contenido">
 <section class="home-hero surface-dark">
-<img class="hero-image" src="assets/abuelo-futbol.png" alt="Abuelo jugando fútbol con su nieto" width="1672" height="941" fetchpriority="high">
+<img class="hero-image" alt="" width="1672" height="941" fetchpriority="high" id="hero-image">
+<script>
+(function(){
+  // Random hero banner on each load (never the same twice in a row). Force one with ?hero=futbol|nieto|empresario|padel
+  var slides=[
+    {key:'futbol',src:'assets/abuelo-futbol.png',alt:'Abuelo jugando fútbol con su nieto'},
+    {key:'nieto',src:'assets/abuelo-nieto-flip.png',alt:'Abuelo cargando a su nieto'},
+    {key:'empresario',src:'assets/horizonte-empresario-flip.png',alt:'Empresario sonriendo frente a un ventanal con vista a la ciudad'},
+    {key:'padel',src:'assets/mujer-padel-flip.png',alt:'Mujer sonriendo mientras juega pádel'}
+  ];
+  var i=-1,last=-1,q=/[?&]hero=([a-z]+)/.exec(location.search);
+  try{last=parseInt(sessionStorage.getItem('aetraHero'),10);if(isNaN(last))last=-1;}catch(e){}
+  if(q){slides.forEach(function(x,n){if(x.key===q[1])i=n;});}
+  if(i<0){do{i=Math.floor(Math.random()*slides.length);}while(i===last&&slides.length>1);}
+  try{sessionStorage.setItem('aetraHero',i);}catch(e){}
+  var img=document.getElementById('hero-image');img.src=slides[i].src;img.alt=slides[i].alt;
+})();
+</script>
+<noscript><img class="hero-image" src="assets/abuelo-futbol.png" alt="Abuelo jugando fútbol con su nieto" width="1672" height="941"></noscript>
 <div class="container hero-content">
-<div class="section-label eyebrow">
-<span>AETRA Centro de longevidad y medicina integrativa</span>
-</div>
 <h1 class="type-display text-reveal reveal-up">Más vida<br>para tus años.</h1>
 <p class="type-body-large reveal-up">Damos atención a su bienestar por medio de la ciencia y la tecnología para mejorar tu calidad de vida.</p>
 <div class="actions reveal-up">
@@ -150,73 +163,94 @@
 </div>
 </div>
 </section>
-<div class="container pillars-wrap">
-<div class="pillars glass glass--02 scale-reveal glass-reveal">
-<div>
-<svg class="icon" aria-hidden="true">
-<use href="#i-balance">
-</use>
-</svg>
-<span>Mirada integral</span>
-</div>
-<div>
-<svg class="icon" aria-hidden="true">
-<use href="#i-focus">
-</use>
-</svg>
-<span>Prevención</span>
-</div>
-<div>
-<svg class="icon" aria-hidden="true">
-<use href="#i-cycle">
-</use>
-</svg>
-<span>Personalización</span>
-</div>
-<div>
-<svg class="icon" aria-hidden="true">
-<use href="#i-time">
-</use>
-</svg>
-<span>Acompañamiento</span>
-</div>
-</div>
-</div>
 <section class="section statement" id="mirada">
-<div class="container two-up align-center">
+<div class="container two-up align-center section-reveal">
 <div>
-<div class="section-label eyebrow">
-<span>Nuestra mirada</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">Tu salud es<br>más que un síntoma.</h2>
-<p class="type-body section-copy">Tu historia, tus hábitos y tu contexto son parte de una misma conversación. Una mirada integral comienza por entenderte.</p>
-<a class="text-link" href="aetra.html">Conoce nuestro enfoque<svg class="icon" aria-hidden="true">
+<h2 class="type-h2 text-reveal reveal-up">El centro de longevidad que se concentra en ti, y tu calidad de vida.</h2>
+<p class="type-body section-copy">Labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+<a class="text-link" href="aetra.html">CONOCE AETRA<svg class="icon" aria-hidden="true">
 <use href="#i-arrow">
 </use>
 </svg>
 </a>
 </div>
 <figure class="image-frame image-reveal statement-image">
-<img class="" src="assets/glass-study.png" alt="Estudio editorial de vidrio y luz" loading="lazy" width="1536" height="1024">
-<figcaption class="caption image-caption">UNA MIRADA INTEGRAL.<br>UN CUIDADO PERSONAL.</figcaption>
+<img class="" src="assets/recepcion.png" alt="Recepción del centro AETRA, paciente conversando con la recepcionista" loading="lazy" width="1448" height="1086">
 </figure>
 </div>
 </section>
-<section class="section need-section">
-<div class="container editorial-grid">
-<p class="eyebrow col-4 reveal">El punto de partida</p>
-<div class="col-8">
-<h2 class="type-h2 reveal-up">A veces, lo que sientes<br>necesita una mirada más amplia.</h2>
-<p class="type-body section-copy reveal-up">El descanso, la energía, el estrés y los hábitos forman parte de tu historia. La valoración abre un espacio para ponerlos en contexto.</p>
+<section class="section stories-section" data-carousel>
+<div class="container section-reveal">
+<div class="stories-head">
+<h2 class="type-h2 text-reveal reveal-up">Historias de nuestros pacientes.</h2>
+<div class="stories-nav">
+<button class="icon-button stories-prev" type="button" aria-label="Anterior" data-carousel-prev><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></button>
+<button class="icon-button stories-next" type="button" aria-label="Siguiente" data-carousel-next><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></button>
 </div>
+</div>
+<ul class="stories-track" data-carousel-track aria-label="Historias de nuestros pacientes">
+<li class="story-item">
+<button class="story-card" type="button" aria-label="Reproducir video: Lorem ipsum dolor sit">
+<img src="assets/mujer-padel.png" alt="" loading="lazy" width="1672" height="941">
+<span class="story-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+<span class="story-title">Lorem ipsum dolor sit</span>
+</button>
+</li>
+<li class="story-item">
+<button class="story-card" type="button" aria-label="Reproducir video: Consectetur adipiscing elit">
+<img src="assets/abuelo-nieto.png" alt="" loading="lazy" width="1672" height="941">
+<span class="story-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+<span class="story-title">Consectetur adipiscing elit</span>
+</button>
+</li>
+<li class="story-item">
+<button class="story-card" type="button" aria-label="Reproducir video: Sed do eiusmod tempor">
+<img src="assets/draparra-escritorio.png" alt="" loading="lazy" width="1672" height="941">
+<span class="story-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+<span class="story-title">Sed do eiusmod tempor</span>
+</button>
+</li>
+<li class="story-item">
+<button class="story-card" type="button" aria-label="Reproducir video: Incididunt ut labore">
+<img src="assets/horizonte-empresario.png" alt="" loading="lazy" width="1672" height="941">
+<span class="story-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+<span class="story-title">Incididunt ut labore</span>
+</button>
+</li>
+<li class="story-item">
+<button class="story-card" type="button" aria-label="Reproducir video: Et dolore magna aliqua">
+<img src="assets/abuelo-futbol.png" alt="" loading="lazy" width="1672" height="941">
+<span class="story-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+<span class="story-title">Et dolore magna aliqua</span>
+</button>
+</li>
+<li class="story-item">
+<button class="story-card" type="button" aria-label="Reproducir video: Ut enim ad minim">
+<img src="assets/recepcion.png" alt="" loading="lazy" width="1672" height="941">
+<span class="story-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+<span class="story-title">Ut enim ad minim</span>
+</button>
+</li>
+<li class="story-item">
+<button class="story-card" type="button" aria-label="Reproducir video: Quis nostrud exercitation">
+<img src="assets/movement-study.png" alt="" loading="lazy" width="1672" height="941">
+<span class="story-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+<span class="story-title">Quis nostrud exercitation</span>
+</button>
+</li>
+<li class="story-item">
+<button class="story-card" type="button" aria-label="Reproducir video: Ullamco laboris nisi">
+<img src="assets/glass-study.png" alt="" loading="lazy" width="1672" height="941">
+<span class="story-play"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg></span>
+<span class="story-title">Ullamco laboris nisi</span>
+</button>
+</li>
+</ul>
 </div>
 </section>
 <section class="section surface-dark">
-<div class="container">
-<div class="section-label eyebrow">
-<span>El enfoque AETRA</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">Primero entendemos.<br>Después actuamos.</h2>
+<div class="container section-reveal">
+<h2 class="type-h2 text-reveal reveal-up">¿Cómo funciona?</h2>
 <div class="section-rule line-reveal">
 </div>
 <div class="process-track">
@@ -224,123 +258,100 @@
 <div class="step-marker">
 <span>01</span>
 </div>
-<h3 class="type-h3">Conocer</h3>
-<p class="body-small muted">Tu historia, tus hábitos y tu contexto.</p>
+<h3 class="type-h3">Medir</h3>
+<p class="body-small muted">Aliqua ut enim ad minim veniam quis.</p>
 </article>
 <article class="process-step reveal-up" style="--stagger:1">
 <div class="step-marker">
 <span>02</span>
 </div>
-<h3 class="type-h3">Comprender</h3>
-<p class="body-small muted">Una mirada a los factores de tu salud.</p>
+<h3 class="type-h3">Interpretar</h3>
+<p class="body-small muted">Exercitation ullamco laboris nisi ut aliquip ex ea.</p>
 </article>
 <article class="process-step reveal-up" style="--stagger:2">
 <div class="step-marker">
 <span>03</span>
 </div>
-<h3 class="type-h3">Personalizar</h3>
-<p class="body-small muted">Un plan según la valoración médica.</p>
+<h3 class="type-h3">Diseñar</h3>
+<p class="body-small muted">Consequat duis aute irure dolor in.</p>
 </article>
 <article class="process-step reveal-up" style="--stagger:3">
 <div class="step-marker">
 <span>04</span>
 </div>
 <h3 class="type-h3">Acompañar</h3>
-<p class="body-small muted">El cuidado como un proceso.</p>
+<p class="body-small muted">In voluptate velit esse cillum.</p>
+</article>
+</div>
+<div class="process-cta">
+<a class="button button--light" href="aetra.html">Conoce el proceso en Aetra<svg class="icon" aria-hidden="true">
+<use href="#i-arrow">
+</use>
+</svg>
+</a>
+</div>
+</div>
+</section>
+<section class="section bio-section" id="dra-paola-parra">
+<div class="container two-up align-center section-reveal">
+<div>
+<h2 class="type-h2 text-reveal reveal-up">La Dra. Paola Parra<br>y su enfoque.</h2>
+<p class="type-body section-copy reveal-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p class="type-body section-copy reveal-up">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<figure class="bio-figure">
+<img src="assets/draparra-silueta.png" alt="Dra. Paola Parra" loading="lazy" width="413" height="1308">
+</figure>
+</div>
+</section>
+<section class="section tech-section">
+<div class="container section-reveal">
+<h2 class="type-h2 text-reveal reveal-up">Tecnología de diagnóstico y medición al servicio de tu bienestar.</h2>
+<div class="tech-grid">
+<article class="tech-card tech-card--light reveal-up" style="--stagger:0">
+<span class="eyebrow tech-tag">Medición y diagnóstico</span>
+<h3 class="type-h3">Visbody · Composición corporal 3D</h3>
+<p class="body-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</article>
+<article class="tech-card tech-card--light reveal-up" style="--stagger:1">
+<span class="eyebrow tech-tag">Medición y diagnóstico</span>
+<h3 class="type-h3">Oligocheck · Perfil de minerales</h3>
+<p class="body-small">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</article>
+<article class="tech-card tech-card--light reveal-up" style="--stagger:2">
+<span class="eyebrow tech-tag">Medición y diagnóstico</span>
+<h3 class="type-h3">Prueba de aliento · Salud intestinal</h3>
+<p class="body-small">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</article>
+</div>
+<div class="tech-grid tech-grid--longevity">
+<article class="tech-card tech-card--dark reveal-up" style="--stagger:0">
+<span class="eyebrow tech-tag">Tecnología para la longevidad</span>
+<h3 class="type-h3">Cámara fotodinámica · Única en Colombia</h3>
+<p class="body-small">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+<article class="tech-card tech-card--dark reveal-up" style="--stagger:1">
+<span class="eyebrow tech-tag">Tecnología para la longevidad</span>
+<h3 class="type-h3">Tratamiento de hidrógeno molecular</h3>
+<p class="body-small">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+</article>
+<article class="tech-card tech-card--dark reveal-up" style="--stagger:2">
+<span class="eyebrow tech-tag">Tecnología para la longevidad</span>
+<h3 class="type-h3">Tratamiento de microcorrientes</h3>
+<p class="body-small">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
 </article>
 </div>
 </div>
 </section>
-<section class="section">
-<div class="container two-up align-center">
-<div>
-<div class="section-label eyebrow">
-<span>Información con contexto</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">Conoce lo que hay<br>detrás de tu salud.</h2>
-<p class="type-body section-copy">La historia clínica y la valoración médica permiten conversar sobre tu salud con contexto.</p>
-<a class="text-link" href="valoracion-inicial.html">Cómo es la valoración<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-<div class="data-image image-frame image-reveal">
-<img class="" src="assets/glass-study.png" alt="Estudio editorial de vidrio y luz" loading="lazy" width="1536" height="1024">
-</div>
-</div>
-<div class="glass glass--light glass--02 data-panel scale-reveal glass-reveal">
-<p class="eyebrow">Una mirada a tu historia</p>
-<h3 class="type-h3 section-copy">Todo empieza por conocerte.</h3>
-<dl class="health-list">
-<div>
-<dt>Energía</dt>
-<dd>Por valorar <svg class="icon" aria-hidden="true">
-<use href="#i-plus">
-</use>
-</svg>
-</dd>
-</div>
-<div>
-<dt>Sueño</dt>
-<dd>Por valorar <svg class="icon" aria-hidden="true">
-<use href="#i-plus">
-</use>
-</svg>
-</dd>
-</div>
-<div>
-<dt>Estrés</dt>
-<dd>Por valorar <svg class="icon" aria-hidden="true">
-<use href="#i-plus">
-</use>
-</svg>
-</dd>
-</div>
-<div>
-<dt>Alimentación</dt>
-<dd>Por valorar <svg class="icon" aria-hidden="true">
-<use href="#i-plus">
-</use>
-</svg>
-</dd>
-</div>
-<div>
-<dt>Antecedentes</dt>
-<dd>Por valorar <svg class="icon" aria-hidden="true">
-<use href="#i-plus">
-</use>
-</svg>
-</dd>
-</div>
-</dl>
-<p class="caption muted">Esquema de valoración. No representa resultados ni datos de pacientes.</p>
-</div>
-</div>
-</section>
-<section class="section solutions-section">
-<div class="container relative">
-<svg class="aetra-graphic editorial-arc" viewBox="0 0 200 160" aria-hidden="true">
-<use href="#AetraArc">
-</use>
-</svg>
-<div class="section-label eyebrow">
-<span>Soluciones</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">Soluciones.<br>Una mirada integral.</h2>
-<p class="type-body section-copy">Áreas de conversación presentes en la valoración médica.</p>
-<a class="text-link" href="soluciones.html">Ver todas las soluciones<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
+<section class="section programs-list-section">
+<div class="container section-reveal">
+<h2 class="type-h2 text-reveal reveal-up">Nuestros programas.</h2>
 <div class="solution-grid">
 <article class="solution-card image-card reveal-up" style="--stagger:0">
-<img class="" src="assets/movement-study.png" alt="Imagen editorial conceptual" loading="lazy" width="1536" height="1024">
+<img class="" src="assets/abuelo-nieto.png" alt="Programa Bienestar Fin de Año" loading="lazy" width="1672" height="941">
 <div class="image-card-content">
-<span class="eyebrow">01</span>
-<h3 class="type-h3">Energía y vitalidad</h3>
-<p class="body-small">Nivel energético y hábitos de vida.</p>
-<a class="text-link" href="soluciones.html#energia">Explorar<svg class="icon" aria-hidden="true">
+<h3 class="type-h3">Programa Bienestar Fin de Año</h3>
+<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true">
 <use href="#i-arrow">
 </use>
 </svg>
@@ -348,12 +359,10 @@
 </div>
 </article>
 <article class="solution-card image-card reveal-up" style="--stagger:1">
-<img class="" src="assets/glass-study.png" alt="Imagen editorial conceptual" loading="lazy" width="1536" height="1024">
+<img class="" src="assets/horizonte-empresario.png" alt="Día de Bienestar corporativo" loading="lazy" width="1672" height="941">
 <div class="image-card-content">
-<span class="eyebrow">02</span>
-<h3 class="type-h3">Sueño y descanso</h3>
-<p class="body-small">Calidad del sueño y contexto cotidiano.</p>
-<a class="text-link" href="soluciones.html#sueno">Explorar<svg class="icon" aria-hidden="true">
+<h3 class="type-h3">Día de Bienestar corporativo</h3>
+<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true">
 <use href="#i-arrow">
 </use>
 </svg>
@@ -361,255 +370,16 @@
 </div>
 </article>
 <article class="solution-card image-card reveal-up" style="--stagger:2">
-<img class="" src="assets/movement-study.png" alt="Imagen editorial conceptual" loading="lazy" width="1536" height="1024">
+<img class="" src="assets/mujer-padel.png" alt="Membresía AETRA · Anual" loading="lazy" width="1672" height="941">
 <div class="image-card-content">
-<span class="eyebrow">03</span>
-<h3 class="type-h3">Estrés y bienestar</h3>
-<p class="body-small">Estrés y estado emocional.</p>
-<a class="text-link" href="soluciones.html#estres">Explorar<svg class="icon" aria-hidden="true">
+<h3 class="type-h3">Membresía AETRA · Anual</h3>
+<a class="text-link" href="programas.html">Ver más<svg class="icon" aria-hidden="true">
 <use href="#i-arrow">
 </use>
 </svg>
 </a>
 </div>
 </article>
-<article class="solution-card image-card reveal-up" style="--stagger:0">
-<img class="" src="assets/glass-study.png" alt="Imagen editorial conceptual" loading="lazy" width="1536" height="1024">
-<div class="image-card-content">
-<span class="eyebrow">04</span>
-<h3 class="type-h3">Salud metabólica</h3>
-<p class="body-small">Alimentación y estado metabólico.</p>
-<a class="text-link" href="soluciones.html#metabolica">Explorar<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
-</article>
-<article class="solution-card image-card reveal-up" style="--stagger:1">
-<img class="" src="assets/glass-study.png" alt="Imagen editorial conceptual" loading="lazy" width="1536" height="1024">
-<div class="image-card-content">
-<span class="eyebrow">05</span>
-<h3 class="type-h3">Salud hormonal</h3>
-<p class="body-small">Estado hormonal e historia clínica.</p>
-<a class="text-link" href="soluciones.html#hormonal">Explorar<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
-</article>
-<article class="solution-card image-card reveal-up" style="--stagger:2">
-<img class="" src="assets/glass-study.png" alt="Imagen editorial conceptual" loading="lazy" width="1536" height="1024">
-<div class="image-card-content">
-<span class="eyebrow">06</span>
-<h3 class="type-h3">Salud digestiva</h3>
-<p class="body-small">Salud intestinal y hábitos de alimentación.</p>
-<a class="text-link" href="soluciones.html#digestiva">Explorar<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
-</article>
-</div>
-</div>
-</section>
-<section class="section programs-section">
-<div class="container">
-<div class="section-label eyebrow">
-<span>Programas</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">El cuidado comienza<br>por tu historia.</h2>
-<a class="text-link" href="programas.html">Ver todos los programas<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-<div class="three-up stagger-group">
-<article class="program-card reveal-up">
-<p class="eyebrow">01 / Tu punto de partida</p>
-<h3 class="type-h3">Valoración inicial</h3>
-<p>Una consulta personalizada para conocer tu historia y contexto.</p>
-<div class="program-bottom">
-<a class="text-link" href="valoracion-inicial.html">Conocer la valoración<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
-</article>
-<article class="program-card reveal-up" style="--stagger:1">
-<p class="eyebrow">02 / Longevidad</p>
-<h3 class="type-h3">Programa de longevidad</h3>
-<p class="caption pending">Pendiente de contenido aprobado · alcance y nombre del programa por confirmar.</p>
-<div class="program-bottom">
-<a class="text-link" href="programas.html#longevidad">Ver estado del programa<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
-</article>
-<article class="program-card reveal-up" style="--stagger:2">
-<p class="eyebrow">03 / Cuidado integral</p>
-<h3 class="type-h3">Acompañamiento</h3>
-<p class="caption pending">Pendiente de contenido aprobado · modalidades y seguimiento por confirmar.</p>
-<div class="program-bottom">
-<a class="text-link" href="programas.html#acompanamiento">Explorar programas<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
-</article>
-</div>
-</div>
-</section>
-<section class="section surface-dark testimony">
-<div class="container two-up align-center">
-<div class="video-placeholder image-reveal">
-<img class="" src="assets/movement-study.png" alt="Imagen conceptual; no representa a un paciente" loading="lazy" width="1536" height="1024">
-<div class="video-placeholder-note glass glass--image glass--01">
-<p class="eyebrow">Testimonio en video</p>
-<p class="body-small">Video pendiente de publicación</p>
-</div>
-</div>
-<div>
-<div class="section-label eyebrow">
-<span>Historias</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">Detrás del cuidado,<br>hay una persona.</h2>
-<p class="section-copy">Un espacio para escuchar experiencias reales.</p>
-<p class="caption pending">Pendiente de contenido aprobado · video, testimonio y autorización de uso. La imagen es conceptual.</p>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="container two-up align-center">
-<div>
-<div class="section-label eyebrow">
-<span>Equipo</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">Conoce a quien está<br>detrás de AETRA.</h2>
-<p class="type-body section-copy">Dra. Paola Parra. Medicina funcional e integrativa.</p>
-<a class="text-link" href="equipo.html">Conoce el equipo<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
-<article class="team-feature reveal-right">
-<div class="team-portrait image-frame">
-<img class="" src="assets/paola-parra-brandbook.png" alt="Dra. Paola Parra, imagen del manual de marca" loading="lazy" width="1536" height="1024">
-</div>
-<div class="team-caption">
-<div>
-<h3 class="type-h4">Dra. Paola Parra</h3>
-<p class="caption">Medicina funcional e integrativa</p>
-</div>
-<a class="text-link" href="equipo.html#paola">Perfil<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
-</article>
-</div>
-</section>
-<section class="section surface-dark test-banner">
-<div class="container two-up align-center">
-<div>
-<div class="section-label eyebrow">
-<span>Una pausa para ti</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">¿Qué tanto conoces<br>hoy tu salud?</h2>
-<p class="type-body section-copy">Un primer espacio para explorar tus intereses y preparar una conversación.</p>
-<a class="button button--light" href="test-longevidad.html">Explorar el test<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-<p class="caption section-copy">Vista previa de navegación. Test clínico pendiente de aprobación.</p>
-</div>
-<div class="test-art image-reveal">
-<img class="" src="assets/glass-study.png" alt="Estudio editorial de vidrio y luz" loading="lazy" width="1536" height="1024">
-</div>
-</div>
-</section>
-<section class="section">
-<div class="container">
-<div class="section-label eyebrow">
-<span>Ciencia y recursos</span>
-</div>
-<h2 class="type-h2 text-reveal reveal-up">Lo que sabemos también<br>puede ayudarte a entender.</h2>
-<p class="type-body section-copy">Un espacio editorial para compartir conocimiento y conversaciones sobre el cuidado.</p>
-<a class="text-link" href="articulos.html">Explorar contenidos<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-<div class="three-up resources">
-<article class="article-card editorial-card reveal-up" style="--stagger:0">
-<div class="image-frame">
-<img class="" src="assets/glass-study.png" alt="Estudio visual conceptual" loading="lazy" width="1536" height="1024">
-</div>
-<p class="eyebrow">Artículo / Próximamente</p>
-<h3 class="type-h3">Una mirada integral a tu salud</h3>
-<p class="caption pending">Pendiente de contenido aprobado · pieza editorial y revisión médica.</p>
-<a class="text-link" href="articulos.html#integral">Ver recursos<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</article>
-<article class="article-card editorial-card reveal-up" style="--stagger:1">
-<div class="image-frame">
-<img class="" src="assets/movement-study.png" alt="Estudio visual conceptual" loading="lazy" width="1536" height="1024">
-</div>
-<p class="eyebrow">Conversación / Próximamente</p>
-<h3 class="type-h3">Conocer el enfoque AETRA</h3>
-<p class="caption pending">Pendiente de contenido aprobado · pieza editorial y revisión médica.</p>
-<a class="text-link" href="articulos.html#conversacion">Ver recursos<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</article>
-<article class="article-card editorial-card reveal-up" style="--stagger:2">
-<div class="image-frame">
-<img class="" src="assets/glass-study.png" alt="Estudio visual conceptual" loading="lazy" width="1536" height="1024">
-</div>
-<p class="eyebrow">Guía / Próximamente</p>
-<h3 class="type-h3">Preparar tu primera valoración</h3>
-<p class="caption pending">Pendiente de contenido aprobado · pieza editorial y revisión médica.</p>
-<a class="text-link" href="articulos.html#guia">Ver recursos<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</article>
-</div>
-</div>
-</section>
-<section class="section final-cta surface-dark">
-<div class="container relative">
-<svg class="aetra-graphic editorial-arc" viewBox="0 0 200 160" aria-hidden="true">
-<use href="#AetraArc">
-</use>
-</svg>
-<div class="cta-copy">
-<div class="section-label eyebrow">
-<span>AETRA</span>
-<span>/ El primer paso</span>
-</div>
-<h2 class="type-h2 reveal-up">Tu salud merece<br>ser entendida.</h2>
-<p class="section-copy">Conoce la valoración y comencemos por tu historia.</p>
-<a class="button button--light" href="valoracion-inicial.html">Agenda tu valoración<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
 </div>
 </div>
 </section>
@@ -625,33 +395,20 @@
 </div>
 <nav aria-label="AETRA en el pie de página">
 <p class="eyebrow">AETRA</p>
-<a href="aetra.html">AETRA</a>
-<a href="soluciones.html">Soluciones</a>
+<a href="aetra.html">Sobre nosotros</a>
+<a href="index.html#dra-paola-parra">Dra. Paola Parra</a>
 <a href="programas.html">Programas</a>
-<a href="test-longevidad.html">Test de longevidad</a>
-<a href="equipo.html">Equipo</a>
+<a href="equipo.html">Equipo y tecnología</a>
 </nav>
 <nav aria-label="Recursos">
 <p class="eyebrow">Recursos</p>
-<a href="articulos.html">Artículos</a>
 <a href="preguntas-frecuentes.html">Preguntas frecuentes</a>
-<a href="contacto.html">Contacto</a>
+<a href="valoracion-inicial.html">Agenda tu valoración</a>
 </nav>
-<div class="footer-note">
-<p class="eyebrow">Un primer paso</p>
-<p class="body-small">Tu historia merece ser escuchada.</p>
-<a class="text-link" href="valoracion-inicial.html">Conoce la valoración<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
-</div>
 </div>
 <div class="footer-bottom caption">
 <span>© 2026 AETRA.</span>
 <a href="terminos.html#privacidad">Privacidad</a>
-<a href="terminos.html">Términos y condiciones</a>
-<a href="#inicio">Volver arriba ↑</a>
 </div>
 </div>
 </footer>

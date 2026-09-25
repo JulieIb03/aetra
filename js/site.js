@@ -28,7 +28,7 @@
   });
   // DS reveal classes, durations and easing; stagger only sequences sibling entries.
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  const motion = $$('.reveal,.reveal-up,.reveal-left,.reveal-right,.scale-reveal,.line-reveal,.image-reveal');
+  const motion = $$('.reveal,.reveal-up,.reveal-left,.reveal-right,.scale-reveal,.line-reveal,.image-reveal,.section-reveal');
   let observer;
   function setupMotion() {
     observer?.disconnect();
@@ -36,14 +36,21 @@
       motion.forEach(el => { el.classList.remove('motion-ready'); el.classList.add('is-visible'); });
       return;
     }
+    // .image-reveal is hidden with clip-path, which makes its own intersection ratio 0
+    // and it would never reveal; observe its (unclipped) parent instead.
+    const targets = new Map();
     observer = new IntersectionObserver(entries => entries.forEach(entry => {
       if (!entry.isIntersecting) return;
-      entry.target.classList.add('is-visible');
+      (targets.get(entry.target) || []).forEach(el => el.classList.add('is-visible'));
       observer.unobserve(entry.target);
     }), {threshold:0.08,rootMargin:'0px 0px -24px 0px'});
     motion.forEach(el => {
       if (el.classList.contains('is-visible') || el.getBoundingClientRect().bottom < 0) { el.classList.add('is-visible'); return; }
-      el.classList.add('motion-ready'); observer.observe(el);
+      el.classList.add('motion-ready');
+      const target = el.classList.contains('image-reveal') && el.parentElement ? el.parentElement : el;
+      if (!targets.has(target)) targets.set(target, []);
+      targets.get(target).push(el);
+      observer.observe(target);
     });
   }
   setupMotion();
@@ -89,4 +96,14 @@
     test.hidden=true;$('#test-result').hidden=false;$('#result-title').focus({preventScroll:true});
   });
   $('#test-reset').addEventListener('click', () => {answers.fill(null);step=0;$('#test-result').hidden=true;test.hidden=false;render();});
+})();
+// Horizontal carousels: [data-carousel] with [data-carousel-track] and prev/next buttons.
+(() => {
+  document.querySelectorAll('[data-carousel]').forEach(root => {
+    const track = root.querySelector('[data-carousel-track]');
+    if (!track) return;
+    const step = () => track.clientWidth;
+    root.querySelector('[data-carousel-prev]')?.addEventListener('click', () => track.scrollBy({left: -step(), behavior: 'smooth'}));
+    root.querySelector('[data-carousel-next]')?.addEventListener('click', () => track.scrollBy({left: step(), behavior: 'smooth'}));
+  });
 })();
