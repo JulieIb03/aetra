@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Conoce a la Dra. Paola Parra y el enfoque de valoración de AETRA.">
+<meta name="description" content="Conoce la tecnología AETRA: equipos de diagnóstico y tratamientos para la longevidad, explicados uno a uno.">
 <meta name="theme-color" content="#083328">
-<title>Equipo · AETRA</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Montserrat:wght@400;500;600&display=swap"><link rel="stylesheet" href="css/tokens.css">
+<title>Equipo y tecnología · AETRA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600&display=swap"><link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/components.css">
 <link rel="stylesheet" href="css/site.css">
 <script src="js/site.js" defer>
@@ -15,7 +15,7 @@
 <style>.menu-toggle{display:none}.header-inner{flex-wrap:wrap;padding-block:16px}.desktop-nav{display:flex;flex-wrap:wrap;width:100%;margin:0;justify-content:flex-start;white-space:normal}</style>
 </noscript>
 </head>
-<body id="inicio" class="page-equipo">
+<body id="equipo-tecnologia" class="page-tech">
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 <defs>
@@ -58,6 +58,10 @@
 <symbol id="i-chevron" viewBox="0 0 24 24">
 <path d="m6 9 6 6 6-6"/>
 </symbol>
+<symbol id="i-user" viewBox="0 0 24 24">
+<circle cx="12" cy="8" r="3.5"/>
+<path d="M5 20c1.2-3.8 4.2-5.5 7-5.5s5.8 1.7 7 5.5"/>
+</symbol>
 <symbol id="AetraArc" viewBox="0 0 200 160">
 <path d="M25 140a100 100 0 0 1 150-110"/>
 <circle cx="175" cy="30" r="2.5" class="fill"/>
@@ -84,15 +88,32 @@
 </symbol>
 </defs>
 </svg>
+<div class="topbar surface-dark-deep">
+<div class="container topbar-inner">
+<a class="topbar-contact" href="https://wa.me/578888888" target="_blank" rel="noopener"><svg class="topbar-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.8 8.2c.2-.4.5-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c.6 1.2 1.6 2.1 2.8 2.7l.6-.6c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3-.1.6-.5.8-.5.3-1.2.4-1.9.2-2.6-.8-4.6-2.8-5.4-5.4-.2-.8 0-1.6.5-2.1Z"/></svg><span>Escríbenos</span> <span class="topbar-number">+57 8888888</span></a>
+<div class="lang-switch" role="group" aria-label="Idioma">
+<a href="index.html" lang="es" aria-current="true">ES</a>
+<span aria-hidden="true">/</span>
+<a href="#" lang="en" title="English version coming soon">EN</a>
+</div>
+</div>
+</div>
 <header class="site-header surface-dark">
 <div class="container header-inner">
 <a class="brand" href="index.html" aria-label="AETRA, inicio">
 <img src="assets/aetra-logo.png" width="2172" height="724" alt="AETRA by Dra. Paola Parra. Más vida para tus años.">
 </a>
 <nav class="desktop-nav" aria-label="Navegación principal">
-<a href="aetra.html">Sobre nosotros</a>
-<a href="index.html#dra-paola-parra">Dra. Paola Parra</a>
-<a href="programas.html">Programas</a>
+<a href="about.html" aria-current="page">Sobre nosotros</a>
+<a href="dra-paola-parra.html">Dra. Paola Parra</a>
+<div class="nav-item has-sub">
+<a href="programas.html" aria-haspopup="true">Programas<svg class="icon nav-caret" aria-hidden="true"><use href="#i-chevron"></use></svg></a>
+<div class="nav-sub" role="group" aria-label="Programas AETRA">
+<a class="program-card program-card--core program-card--mini" href="programa-core.html" aria-label="AETRA CORE"><svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg><span class="program-card-name"><span>AETRA</span> CORE</span></a>
+<a class="program-card program-card--advanced program-card--mini" href="programa-advanced.html" aria-label="AETRA ADVANCED"><svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg><span class="program-card-name"><span>AETRA</span> ADVANCED</span></a>
+<a class="program-card program-card--gold program-card--mini" href="programa-gold.html" aria-label="AETRA GOLD"><svg class="program-card-mark" aria-hidden="true"><use href="#AetraCircle"></use></svg><span class="program-card-name"><span>AETRA</span> GOLD</span></a>
+</div>
+</div>
 <a href="equipo.html" aria-current="page">Equipo y tecnología</a>
 </nav>
 <a class="button button--secondary nav-cta" href="valoracion-inicial.html">Agenda tu valoración<svg class="icon" aria-hidden="true">
@@ -119,8 +140,8 @@
 </button>
 </div>
 <nav aria-label="Navegación móvil">
-<a href="aetra.html">Sobre nosotros</a>
-<a href="index.html#dra-paola-parra">Dra. Paola Parra</a>
+<a href="about.html" aria-current="page">Sobre nosotros</a>
+<a href="dra-paola-parra.html">Dra. Paola Parra</a>
 <a href="programas.html">Programas</a>
 <a href="equipo.html" aria-current="page">Equipo y tecnología</a>
 </nav>
@@ -131,87 +152,70 @@
 </a>
 </dialog>
 <main id="contenido">
-<section class="section">
-<div class="container">
-<div class="section-label eyebrow">
-<span>01</span>
-<span>/ Equipo</span>
-</div>
-<h1 class="type-h1 reveal-up">El cuidado también<br>es una conversación.</h1>
+<section class="section tech-intro">
+<div class="container section-reveal">
+<p class="eyebrow reveal-up">Equipo y tecnología</p>
+<h1 class="type-display reveal-up">La tecnología detrás de tu bienestar.</h1>
+<p class="type-body-large reveal-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
 </section>
-<section class="profile-section" id="paola">
-<div class="container profile-layout">
-<figure class="image-frame profile-photo image-reveal">
-<img class="" src="assets/paola-parra-brandbook.png" alt="Dra. Paola Parra. Retrato incluido en el manual de marca" loading="lazy" width="1536" height="1024">
-<figcaption class="caption">Retrato del manual de marca. Fotografía final pendiente.</figcaption>
-</figure>
-<div class="profile-copy">
-<div class="section-label eyebrow">
-<span>02</span>
-<span>/ Dra. Paola Parra</span>
+
+<section class="tech-split">
+<div class="tech-col tech-col--longevity">
+<div class="tech-col-head">
+<h2 class="type-h2">Tecnología para la longevidad</h2>
 </div>
-<h2 class="type-h2 reveal-up">Una mirada integral<br>a cada persona.</h2>
-<p class="type-body-large section-copy">Medicina funcional e integrativa.</p>
-<p class="section-copy">El documento de AETRA presenta su enfoque desde la historia clínica, los hábitos y las necesidades individuales del paciente.</p>
-<div class="accordion top-space">
-<details>
-<summary>Enfoque de valoración <svg class="icon" aria-hidden="true">
-<use href="#i-plus">
-</use>
-</svg>
-</summary>
-<div>Historia clínica, alimentación, sueño, estrés, estado hormonal, salud intestinal y estado metabólico, entre otros aspectos descritos en el documento de AETRA.</div>
-</details>
-<details>
-<summary>Formación y credenciales <svg class="icon" aria-hidden="true">
-<use href="#i-plus">
-</use>
-</svg>
-</summary>
-<div>
-<p class="caption pending">Pendiente de contenido aprobado · biografía profesional, títulos y registro profesional verificados.</p>
-</div>
-</details>
-</div>
-<a class="button button--primary" href="valoracion-inicial.html">Conoce la valoración<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
+<div class="tech-col-cards">
+<button class="tech-card reveal-up" type="button" style="--stagger:0" data-tech-tag="Tecnología para la longevidad" data-tech-title="Cámara fotodinámica · Única en Colombia" data-tech-desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+<span class="eyebrow tech-tag">Tecnología para la longevidad</span>
+<h3 class="type-h3">Cámara fotodinámica · Única en Colombia</h3>
+<p class="body-small">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</button>
+<button class="tech-card reveal-up" type="button" style="--stagger:1" data-tech-tag="Tecnología para la longevidad" data-tech-title="Tratamiento de hidrógeno molecular" data-tech-desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.">
+<span class="eyebrow tech-tag">Tecnología para la longevidad</span>
+<h3 class="type-h3">Tratamiento de hidrógeno molecular</h3>
+<p class="body-small">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+</button>
+<button class="tech-card reveal-up" type="button" style="--stagger:2" data-tech-tag="Tecnología para la longevidad" data-tech-title="Tratamiento de microcorrientes" data-tech-desc="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.">
+<span class="eyebrow tech-tag">Tecnología para la longevidad</span>
+<h3 class="type-h3">Tratamiento de microcorrientes</h3>
+<p class="body-small">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
+</button>
 </div>
 </div>
-</section>
-<section class="section">
-<div class="container editorial-grid">
-<h2 class="type-h3 col-5">Un equipo por conocer.</h2>
-<div class="col-7">
-<p class="caption pending">Pendiente de contenido aprobado · integrantes adicionales, roles y retratos autorizados. No se han añadido perfiles ficticios.</p>
+<div class="tech-col tech-col--diagnostic">
+<div class="tech-col-head">
+<h2 class="type-h2">Tecnología para el diagnóstico</h2>
 </div>
-</div>
-</section>
-<section class="section final-cta surface-dark">
-<div class="container relative">
-<svg class="aetra-graphic editorial-arc" viewBox="0 0 200 160" aria-hidden="true">
-<use href="#AetraArc">
-</use>
-</svg>
-<div class="cta-copy">
-<div class="section-label eyebrow">
-<span>AETRA</span>
-<span>/ El primer paso</span>
-</div>
-<h2 class="type-h2 reveal-up">Tu salud merece<br>ser entendida.</h2>
-<p class="section-copy">Conoce la valoración y comencemos por tu historia.</p>
-<a class="button button--light" href="valoracion-inicial.html">Agenda tu valoración<svg class="icon" aria-hidden="true">
-<use href="#i-arrow">
-</use>
-</svg>
-</a>
+<div class="tech-col-cards">
+<button class="tech-card reveal-up" type="button" style="--stagger:0" data-tech-tag="Medición y diagnóstico" data-tech-title="Visbody · Composición corporal 3D" data-tech-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+<span class="eyebrow tech-tag">Medición y diagnóstico</span>
+<h3 class="type-h3">Visbody · Composición corporal 3D</h3>
+<p class="body-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</button>
+<button class="tech-card reveal-up" type="button" style="--stagger:1" data-tech-tag="Medición y diagnóstico" data-tech-title="Oligocheck · Perfil de minerales" data-tech-desc="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+<span class="eyebrow tech-tag">Medición y diagnóstico</span>
+<h3 class="type-h3">Oligocheck · Perfil de minerales</h3>
+<p class="body-small">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</button>
+<button class="tech-card reveal-up" type="button" style="--stagger:2" data-tech-tag="Medición y diagnóstico" data-tech-title="Prueba de aliento · Salud intestinal" data-tech-desc="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+<span class="eyebrow tech-tag">Medición y diagnóstico</span>
+<h3 class="type-h3">Prueba de aliento · Salud intestinal</h3>
+<p class="body-small">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</button>
 </div>
 </div>
 </section>
 </main>
+
+<dialog id="tech-modal" class="test-dialog" aria-labelledby="tech-modal-title">
+<div class="dialog-top">
+<p class="eyebrow" id="tech-modal-tag"></p>
+<button class="icon-button" type="button" data-close aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg></button>
+</div>
+<h2 class="type-h2" id="tech-modal-title" tabindex="-1"></h2>
+<p class="type-body" id="tech-modal-desc"></p>
+</dialog>
 <footer class="site-footer surface-dark-deep">
 <div class="container">
 <div class="footer-grid">
@@ -223,8 +227,8 @@
 </div>
 <nav aria-label="AETRA en el pie de página">
 <p class="eyebrow">AETRA</p>
-<a href="aetra.html">Sobre nosotros</a>
-<a href="index.html#dra-paola-parra">Dra. Paola Parra</a>
+<a href="about.html">Sobre nosotros</a>
+<a href="dra-paola-parra.html">Dra. Paola Parra</a>
 <a href="programas.html">Programas</a>
 <a href="equipo.html">Equipo y tecnología</a>
 </nav>
@@ -240,5 +244,35 @@
 </div>
 </div>
 </footer>
+<button class="test-fab" type="button" data-open="longevity-test" aria-controls="longevity-test" aria-expanded="false"><svg class="icon" aria-hidden="true"><use href="#i-rhythm"></use></svg><span>Test de longevidad</span></button>
+<dialog id="longevity-test" class="test-dialog" aria-labelledby="lt-title">
+<div class="dialog-top">
+<p class="eyebrow" id="lt-count">Pregunta 1 de 3</p>
+<button class="icon-button" type="button" data-close aria-label="Cerrar test"><svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg></button>
+</div>
+<div class="lt-progress" aria-hidden="true"><span></span><span></span><span></span></div>
+<form id="lt-form" class="lt-step" novalidate>
+<fieldset>
+<legend class="type-h3" id="lt-title" tabindex="-1"></legend>
+<div class="lt-options" id="lt-options"></div>
+</fieldset>
+<p class="field-error lt-error" id="lt-error" role="alert" hidden>Selecciona una opción para continuar.</p>
+<div class="dialog-actions lt-actions">
+<button class="button button--text" type="button" id="lt-back">← Anterior</button>
+<button class="button button--primary" type="submit" id="lt-next">Continuar</button>
+</div>
+</form>
+<div class="lt-result" id="lt-result" hidden>
+<p class="eyebrow">Tu resultado</p>
+<h2 class="type-h2" id="lt-result-title" tabindex="-1"></h2>
+<div class="lt-meter" aria-hidden="true"><span id="lt-meter-bar"></span></div>
+<p class="type-body" id="lt-result-copy"></p>
+<p class="caption muted lt-disclaimer">Resultado orientativo y simulado. No constituye un diagnóstico médico.</p>
+<div class="dialog-actions">
+<a class="button button--primary" href="valoracion-inicial.html">Agenda tu primera visita a AETRA<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<button class="button button--text" type="button" id="lt-restart">Repetir test</button>
+</div>
+</div>
+</dialog>
 </body>
 </html>

@@ -193,3 +193,43 @@ document.querySelectorAll('.video-preview').forEach(btn => btn.addEventListener(
   dialog.addEventListener('close', reset);
   reset();
 })();
+// Animated counters: [data-counter] spans count up to their target once they enter view.
+(() => {
+  const counters = document.querySelectorAll('[data-counter]');
+  if (!counters.length) return;
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const animate = el => {
+    const target = parseInt(el.dataset.counter, 10) || 0;
+    const suffix = el.dataset.suffix || '';
+    if (reduced || !('IntersectionObserver' in window)) { el.textContent = target.toLocaleString('es-CO') + suffix; return; }
+    const duration = 1400, start = performance.now();
+    const step = now => {
+      const p = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(eased * target).toLocaleString('es-CO') + suffix;
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+  if (!('IntersectionObserver' in window)) { counters.forEach(animate); return; }
+  const io = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    animate(entry.target);
+    io.unobserve(entry.target);
+  }), {threshold: 0.4});
+  counters.forEach(el => io.observe(el));
+})();
+// Equipo y tecnología: clicking a tech-card fills and opens the shared modal.
+(() => {
+  const modal = document.getElementById('tech-modal');
+  if (!modal) return;
+  const tag = document.getElementById('tech-modal-tag');
+  const title = document.getElementById('tech-modal-title');
+  const desc = document.getElementById('tech-modal-desc');
+  document.querySelectorAll('.tech-card[data-tech-title]').forEach(btn => btn.addEventListener('click', () => {
+    tag.textContent = btn.dataset.techTag || '';
+    title.textContent = btn.dataset.techTitle || '';
+    desc.textContent = btn.dataset.techDesc || '';
+    modal.showModal();
+  }));
+})();

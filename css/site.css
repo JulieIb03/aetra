@@ -151,3 +151,99 @@ img{height:auto}
 .lt-meter span{display:block;height:100%;background:linear-gradient(90deg,var(--color-gold),var(--color-gold-dark));transform-origin:left;transform:scaleX(0);transition:transform 1s var(--motion-ease)}
 .lt-disclaimer{margin-top:var(--space-16)}
 @media(max-width:599px){.test-fab{right:var(--space-16);bottom:var(--space-16);padding:12px 18px}.test-dialog{padding:var(--space-24)}}
+/* About (Sobre nosotros) */
+.stats-section{position:relative;isolation:isolate;overflow:hidden}
+.stats-decor{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.stats-decor span{position:absolute;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgb(230 191 132 / .4),rgb(230 191 132 / 0) 72%);animation:stat-float 16s ease-in-out infinite}
+.stats-decor span:nth-child(1){width:180px;height:180px;top:-40px;left:6%;animation-duration:15s}
+.stats-decor span:nth-child(2){width:120px;height:120px;top:60%;left:22%;animation-duration:12s;animation-delay:-4s}
+.stats-decor span:nth-child(3){width:220px;height:220px;top:-60px;right:8%;animation-duration:18s;animation-delay:-8s}
+.stats-decor span:nth-child(4){width:140px;height:140px;bottom:-40px;right:20%;animation-duration:14s;animation-delay:-2s}
+.stats-decor span:nth-child(5){width:90px;height:90px;bottom:10%;left:45%;animation-duration:11s;animation-delay:-6s}
+.stats-grid{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-32);text-align:center}
+.stat-number{font-family:var(--font-editorial);font-weight:700;font-size:clamp(3rem,6vw,4.75rem);line-height:1;margin:0}
+.stat-label{margin-top:var(--space-8);color:var(--color-muted);font-size:var(--type-label-size)}
+@keyframes stat-float{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(0,-22px) scale(1.08)}}
+@media(prefers-reduced-motion:reduce){.stats-decor span{animation:none}}
+
+.mission-video{width:100%;max-width:340px;margin-inline:auto}
+.video-preview--vertical{aspect-ratio:9/16;width:100%;margin-inline:0}
+.mission-cta{margin-top:var(--space-32)}
+.centered-cta{display:flex;justify-content:center}
+.team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-32);margin-top:var(--space-48)}
+.team-photo{position:relative;aspect-ratio:3/4;overflow:hidden;border-radius:var(--radius-medium);background:var(--color-beige)}
+.team-photo img{width:100%;height:100%;object-fit:cover;object-position:top center}
+.team-photo--placeholder{display:grid;place-items:center;background:var(--color-primary-dark)}
+.team-photo--placeholder .icon{width:56px;height:56px;color:var(--color-gold);opacity:.8}
+.team-card h3{margin:var(--space-16) 0 var(--space-4)}.team-card p{margin:0}
+.longevity-banner{background:linear-gradient(90deg,var(--surface-dark-deep),var(--color-primary));padding-block:var(--space-32)}
+.longevity-banner .container{max-width:none;display:flex;align-items:center;justify-content:center;gap:var(--space-32)}
+.longevity-banner .banner-copy{text-align:left;max-width:640px}
+.longevity-banner h2,.longevity-banner p{color:var(--color-gold);margin:0}
+.longevity-banner p{margin-top:var(--space-8)}
+.longevity-banner .actions{margin:0;flex-shrink:0}
+@media(max-width:900px){.stats-grid{grid-template-columns:1fr 1fr;gap:var(--space-32) var(--space-16)}.team-grid{grid-template-columns:1fr 1fr}.longevity-banner .container{flex-direction:column;text-align:center;align-items:stretch}.longevity-banner .banner-copy{text-align:center;max-width:none}.longevity-banner .actions{justify-content:center}}
+@media(max-width:599px){.about-hero{min-height:480px}.team-grid{grid-template-columns:1fr}.mission-video{max-width:280px}.stat-number{font-size:2.5rem}}
+/* Dra. Paola Parra (landing) */
+.doctor-figure{aspect-ratio:3/4;justify-self:start}.doctor-figure img{width:100%;height:100%;object-fit:cover;object-position:top center}
+.approach-section .container>h2{max-width:20ch}
+.approach-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--space-24);margin-top:var(--space-48)}
+.approach-item{display:flex;flex-direction:column;align-items:flex-start;gap:var(--space-16);padding:var(--space-24);border:1px solid var(--color-border-inverse);border-radius:var(--radius-medium)}
+.approach-item .icon{width:28px;height:28px;color:var(--color-gold)}
+.citation-section{text-align:center}.citation-section .container{max-width:760px}
+.citation{margin:0;padding:0;border:0}.citation p{font-style:italic;margin:0}
+.citation-support{color:var(--color-muted)}
+.citation-section .stat-number{margin-top:var(--space-32);color:var(--color-gold-dark)}
+@media(max-width:900px){.approach-grid{grid-template-columns:1fr 1fr 1fr}.doctor-figure{justify-self:center;max-width:320px}}
+@media(max-width:599px){.approach-grid{grid-template-columns:1fr 1fr}}
+/* Programa (CORE / ADVANCED / GOLD) */
+.program-core{--prog-bg:radial-gradient(120% 90% at 0% 0%,#7A3447 0%,#5A2333 48%,#3A1521 100%);--prog-ink:var(--color-ivory);--prog-accent:var(--color-gold);--prog-strong:#8C4159;--prog-tint:rgb(122 52 71 / .07);--prog-btn-ink:var(--color-primary-dark)}
+.program-advanced{--prog-bg:radial-gradient(120% 90% at 0% 0%,#34649A 0%,#234A78 48%,#152E4D 100%);--prog-ink:var(--color-ivory);--prog-accent:#D6E0EC;--prog-strong:#2A5786;--prog-tint:rgb(52 100 154 / .07);--prog-btn-ink:var(--color-primary-dark)}
+.program-gold{--prog-bg:linear-gradient(135deg,#E6D2A6 0%,#C5A56A 42%,#A8874F 100%);--prog-ink:#2B2114;--prog-accent:#5C4522;--prog-strong:#8A6A34;--prog-tint:rgb(197 165 106 / .14);--prog-btn-ink:var(--color-ivory)}
+[class*="program-"] .eyebrow{color:var(--prog-strong)}
+.program-hero{position:relative;isolation:isolate;min-height:520px;display:flex;align-items:center;background:var(--prog-bg);color:var(--prog-ink);overflow:hidden}
+.program-hero .container{position:relative;max-width:720px}
+.program-hero .eyebrow{color:var(--prog-accent)}
+.program-hero h1{margin:var(--space-16) 0 0}
+.program-hero p{margin-top:var(--space-24);color:inherit;opacity:.92}
+.program-hero-mark{position:absolute;right:-10%;bottom:-25%;width:60%;max-width:520px;aspect-ratio:200/160;fill:none;stroke:var(--prog-accent);stroke-width:.6;opacity:.3;pointer-events:none}
+.program-rule{height:2px;width:64px;background:var(--prog-strong);margin:var(--space-24) 0 0}
+.program-how .video-preview{margin-top:var(--space-48)}
+.program-includes .two-up{align-items:center}
+.program-audience{background:var(--prog-tint)}
+.program-audience-list{list-style:none;margin:var(--space-32) 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:var(--space-16) var(--space-32)}
+.program-audience-list li{display:flex;align-items:flex-start;gap:var(--space-12)}
+.program-audience-list .icon{width:20px;height:20px;color:var(--prog-strong);flex-shrink:0;margin-top:2px}
+.program-doctor{position:relative;isolation:isolate;min-height:460px;display:flex;align-items:center}
+.program-doctor img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%;z-index:-2}
+.program-doctor::after{content:'';position:absolute;inset:0;z-index:-1;background:var(--prog-bg);opacity:.85}
+.program-doctor-content{max-width:560px;color:var(--prog-ink)}
+.program-doctor .eyebrow{color:var(--prog-accent)}
+.program-doctor p{margin-top:var(--space-16);opacity:.92}
+.button--program{background:var(--prog-accent);color:var(--prog-btn-ink);border-color:transparent;margin-top:var(--space-32)}
+.button--program:hover{filter:brightness(1.05)}
+@media(max-width:900px){.program-audience-list{grid-template-columns:1fr}}
+/* Equipo y tecnología (split screen) */
+.tech-intro{padding-bottom:var(--space-48)}
+.tech-split{display:flex;min-height:80vh}
+.tech-col{flex:0 0 50%;min-width:0;display:flex;flex-direction:column;padding:var(--space-64) var(--space-48);transition:flex-basis 550ms var(--motion-ease);overflow:hidden}
+.tech-split:has(.tech-col--longevity:hover) .tech-col--longevity{flex-basis:58%}
+.tech-split:has(.tech-col--longevity:hover) .tech-col--diagnostic{flex-basis:42%}
+.tech-split:has(.tech-col--diagnostic:hover) .tech-col--diagnostic{flex-basis:58%}
+.tech-split:has(.tech-col--diagnostic:hover) .tech-col--longevity{flex-basis:42%}
+.tech-col--longevity{background:var(--color-primary);color:var(--color-ivory)}
+.tech-col--diagnostic{background:var(--color-ivory);color:var(--color-text)}
+.tech-col-head{max-width:480px}
+.tech-col-head h2{margin:0}
+.tech-col-cards{display:flex;flex-direction:column;gap:var(--space-16);margin-top:var(--space-32);max-width:520px}
+button.tech-card{border:0;font:inherit;text-align:left;cursor:pointer;width:100%;transition:transform var(--motion-normal) var(--motion-ease)}
+button.tech-card:hover{transform:translateX(4px)}
+.tech-col--longevity button.tech-card:hover{transform:translateX(-4px)}
+@media(max-width:900px){.tech-split{flex-direction:column;min-height:0}.tech-split .tech-col{flex-basis:auto!important}.tech-col{padding:var(--space-48) var(--space-24)}}
+.tech-col--longevity .tech-card{background:rgb(245 240 231 / .06);border:1px solid rgb(245 240 231 / .16)}
+.tech-col--longevity .tech-card:hover{background:rgb(245 240 231 / .1)}
+.tech-col--longevity .tech-card p{color:var(--color-muted-inverse)}
+.tech-col--diagnostic .tech-card{background:var(--color-white);border:1px solid var(--color-border);box-shadow:0 8px 20px rgb(7 30 26 / .05)}
+.tech-col--diagnostic .tech-card:hover{box-shadow:0 12px 28px rgb(7 30 26 / .08)}
+.tech-col--diagnostic .tech-card .tech-tag{color:var(--color-gold-dark)}
+.tech-col--diagnostic .tech-card p{color:var(--color-muted)}
