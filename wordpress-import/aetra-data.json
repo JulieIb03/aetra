@@ -1,0 +1,632 @@
+{
+ "media": {
+  "pareja.png": "Pareja mayor caminando y sonriendo en un jardín",
+  "abuelo-futbol.png": "Abuelo jugando fútbol con su nieto",
+  "abuelo-nieto-flip.png": "Abuelo cargando a su nieto",
+  "horizonte-empresario-flip.png": "Empresario sonriendo frente a un ventanal con vista a la ciudad",
+  "mujer-padel-flip.png": "Mujer sonriendo mientras juega pádel",
+  "abuelo-nieto.png": "Abuelo cargando a su nieto",
+  "horizonte-empresario.png": "Empresario sonriendo frente a un ventanal con vista a la ciudad",
+  "mujer-padel.png": "Mujer sonriendo mientras juega pádel",
+  "recepcion.png": "Recepción del centro AETRA, paciente conversando con la recepcionista",
+  "draparra-escritorio.png": "Consulta médica en el consultorio",
+  "draparra-croma.png": "La Dra. Paola Parra",
+  "draparra-silueta.png": "Dra. Paola Parra",
+  "dra-parra-profile.png": "Dra. Paola Parra",
+  "paola-parra-brandbook.png": "Dra. Paola Parra en su consultorio",
+  "contrapicado-parra-flip.png": "Dra. Paola Parra",
+  "movement-study.png": "Paciente durante una evaluación de movilidad",
+  "glass-study.png": "Objeto de vidrio que refleja la luz, símbolo de un plan a medida",
+  "architecture-brandbook.png": "Espacio arquitectónico del manual de marca"
+ },
+ "ajustes": {
+  "whatsapp_texto": "+57 8888888",
+  "whatsapp_url": "https://wa.me/578888888",
+  "instagram_url": "",
+  "facebook_url": "",
+  "banner_titulo": "Empieza por conocer tu punto de partida.",
+  "cta_texto": "Agenda tu valoración",
+  "metodo_titulo": "¿Cómo funciona?",
+  "metodo_bajada": "Un proceso, no una consulta.",
+  "paso_1": {
+   "titulo": "Medir",
+   "texto": "Evaluamos tu estado actual con tecnología de precisión y una consulta médica profunda. Tu historia importa tanto como tus datos.",
+   "imagen": "@movement-study.png"
+  },
+  "paso_2": {
+   "titulo": "Interpretar",
+   "texto": "Traducimos los resultados en información clara: qué está bien, qué merece atención y por qué.",
+   "imagen": "@draparra-croma.png"
+  },
+  "paso_3": {
+   "titulo": "Diseñar",
+   "texto": "Construimos un plan personalizado que puede integrar nutrición, movimiento, descanso, suplementación cuando esté indicada y terapias de acompañamiento.",
+   "imagen": "@glass-study.png"
+  },
+  "paso_4": {
+   "titulo": "Acompañar",
+   "texto": "Hacemos seguimiento, volvemos a medir y ajustamos. Tu plan evoluciona contigo.",
+   "imagen": "@abuelo-futbol.png"
+  },
+  "metodo_video_imagen": "@draparra-escritorio.png",
+  "metodo_video_url": "",
+  "metodo_cta_texto": "Conoce el proceso en Aetra",
+  "enfermedad_abordaje": "<p>Cada paciente recibe una consulta completamente personalizada, con una evaluación profunda de su historia clínica, sus hábitos de alimentación, su calidad del sueño, su nivel de estrés, su estado hormonal, metabólico e intestinal, el dolor, la inflamación y su estado emocional.</p>\n<p>Además de la valoración médica tradicional, incorporamos un <a href=\"{{link:terapia-bioresonancia}}\">estudio de bioresonancia</a> como apoyo diagnóstico. Con toda esta información se diseña un protocolo individual que puede combinar distintas terapias, según tus necesidades.</p>",
+  "nota_terapias": "Las terapias integrativas son un complemento de la atención médica y deben ser indicadas por un profesional de la salud tras una valoración.",
+  "aviso_legal": "Los resultados varían según cada persona. Nuestros servicios son complementarios y no reemplazan el tratamiento indicado por tus médicos tratantes."
+ },
+ "inicio": {
+  "hero_titulo": "Más vida\npara tus años.",
+  "hero_texto": "Damos atención a su bienestar por medio de la ciencia y la tecnología para mejorar tu calidad de vida.",
+  "hero_cta_texto": "Conoce AETRA",
+  "hero_imagen_1": "@abuelo-futbol.png",
+  "hero_imagen_2": "@abuelo-nieto-flip.png",
+  "hero_imagen_3": "@horizonte-empresario-flip.png",
+  "hero_imagen_4": "@mujer-padel-flip.png",
+  "centro_titulo": "El centro de longevidad que se concentra en ti, y tu calidad de vida.",
+  "centro_texto": "<p>Durante décadas nos enseñaron a ir al médico cuando algo duele. En AETRA creemos en otra forma de cuidarse: entender tu cuerpo antes de que hable, y escucharlo con atención cuando ya lo está haciendo.</p>\n<p>Practicamos una medicina de precisión, preventiva, personalizada y basada en evidencia. No prometemos juventud eterna ni fórmulas universales: te ofrecemos información precisa sobre tu cuerpo y un plan pensado solo para ti.</p>",
+  "centro_cta_texto": "CONOCE AETRA",
+  "centro_imagen": "@recepcion.png",
+  "historias_titulo": "Historias de nuestros pacientes.",
+  "dra_titulo": "La Dra. Paola Parra\ny su enfoque.",
+  "dra_texto": "<p>Con más de 20 años dedicados a la medicina regenerativa, integrativa y de longevidad, la Dra. Paola Parra ha acompañado a miles de pacientes a entender su salud de una manera más completa.</p>\n<p>Su enfoque une la escucha clínica con la precisión de la medición. Para ella, cada paciente es una historia única y no un diagnóstico más.</p>",
+  "dra_imagen": "@draparra-silueta.png",
+  "programas_titulo": "Nuestros programas."
+ },
+ "about": {
+  "hero_eyebrow": "AETRA",
+  "hero_titulo": "El primer centro de longevidad en Colombia.",
+  "hero_imagen": "@pareja.png",
+  "indicador_1": {
+   "numero": 28000,
+   "sufijo": "+",
+   "etiqueta": "Pacientes atendidos"
+  },
+  "indicador_2": {
+   "numero": 340,
+   "sufijo": "+",
+   "etiqueta": "Enfermedades diagnosticadas"
+  },
+  "indicador_3": {
+   "numero": 900,
+   "sufijo": "+",
+   "etiqueta": "Planes de tratamiento"
+  },
+  "indicador_4": {
+   "numero": 20,
+   "sufijo": "+",
+   "etiqueta": "Años de trayectoria"
+  },
+  "mision_titulo": "Nuestra misión.",
+  "mision_texto": "<p>Durante años hemos desarrollado el Protocolo AETRA, integrando algunas de las tecnologías más avanzadas a nivel mundial para acercar a Colombia soluciones que antes parecían lejanas y requerían viajar al exterior.</p>\n<p>La medicina de la longevidad no busca únicamente sumar años, sino vivirlos con mayor salud, energía, autonomía y calidad de vida. Nuestro objetivo es prolongar tu <em>healthspan</em>: los años que puedes vivir con plenitud física, mental y funcional.</p>",
+  "mision_video_imagen": "@recepcion.png",
+  "mision_video_url": "",
+  "tecnologia_titulo": "Tecnología de diagnóstico única en la región.",
+  "tecnologia_texto": "<p>Medimos lo que otros estiman. Integramos evaluaciones no invasivas de composición corporal 3D, perfil de minerales y salud intestinal para que las decisiones sobre tu salud se tomen con información precisa, y no con suposiciones.</p>",
+  "tecnologia_video_imagen": "@draparra-escritorio.png",
+  "tecnologia_video_url": "",
+  "equipo_titulo": "Conoce nuestro equipo médico.",
+  "test_titulo": "¿No sabes por dónde empezar?",
+  "test_texto": "Haz un test y encuentra algunas respuestas para cuidar de ti y tus próximos años."
+ },
+ "dra": {
+  "hero_eyebrow": "Dra. Paola Parra",
+  "hero_titulo": "Salud, belleza y bienestar en armonía.",
+  "hero_texto": "Más de 20 años combinando medicina integrativa, funcional, cuántica y holística en un solo enfoque personalizado.",
+  "hero_imagen": "@contrapicado-parra-flip.png",
+  "sobre_titulo": "Sobre mí.",
+  "sobre_texto": "<p>Me he dedicado a ahondar en los conocimientos de la medicina para brindar una experiencia única de bienestar y salud. Soy médica profesional y he fusionado la Medicina Integrativa, la Medicina Funcional, la Medicina Cuántica y la Medicina Holística y alópata, para dar un enfoque completo y personalizado a cada uno de mis pacientes.</p>",
+  "sobre_imagen": "@paola-parra-brandbook.png",
+  "enfoque_titulo": "Un enfoque completo y personalizado.",
+  "enfoque_pilares": "Medicina Integrativa\nMedicina Funcional\nMedicina Cuántica\nMedicina Holística\nMedicina Alópata",
+  "integrativa_titulo": "¿Qué es la medicina funcional e integrativa?",
+  "integrativa_texto": "<p>Es un enfoque médico que busca comprender el origen de la enfermedad y no únicamente aliviar sus síntomas. A diferencia de la medicina convencional, que con frecuencia centra el tratamiento en el diagnóstico específico o el síntoma presente, este modelo analiza al paciente de manera integral, entendiendo que todos los sistemas del organismo están conectados.</p><p>Su objetivo es identificar las causas que generan el desequilibrio, restaurar el funcionamiento adecuado del cuerpo y promover una mejor calidad de vida a largo plazo, con terapias respaldadas por evidencia científica y tecnología avanzada de apoyo diagnóstico.</p>",
+  "integrativa_beneficios_titulo": "Beneficios de la medicina integrativa",
+  "integrativa_beneficios": "Buscar el origen del problema y no únicamente controlar síntomas.\nDisminuir procesos inflamatorios.\nMejorar el funcionamiento del sistema inmune.\nOptimizar el metabolismo.\nFavorecer el equilibrio hormonal.\nDisminuir el dolor crónico.\nMejorar la calidad del sueño.\nIncrementar los niveles de energía.\nFavorecer la desintoxicación del organismo.\nMejorar la salud intestinal.\nComplementar tratamientos médicos convencionales.\nPromover un envejecimiento saludable.\nMejorar la calidad de vida de forma integral.",
+  "cita_texto": "“Mi trabajo no empieza cuando aparece la enfermedad. Empieza cuando alguien decide que quiere entender su cuerpo.”",
+  "cita_autor": "Dra. Paola Parra",
+  "cita_apoyo": "Los tratamientos médicos no solo mejoran la apariencia: transforman la salud, la mente y el espíritu, a través de una metodología trabajada por más de 20 años que combina ciencia y tecnología para resultados visibles y duraderos.",
+  "cita_numero": 20,
+  "cita_sufijo": "+ años",
+  "regenerativa_titulo": "Medicina regenerativa y anti-edad.",
+  "regenerativa_texto": "<p>Si buscas un lugar donde tu salud, tu belleza y tu bienestar se encuentren en armonía, soy la profesional que necesitas. Descubre que sí podemos trabajar desde la naturalidad con la salud y la medicina regenerativa, en pro de ver la medicina anti-edad desde lo físico y lo funcional.</p>",
+  "regenerativa_imagen": "@draparra-silueta.png",
+  "filosofia_titulo": "Cada paciente es único.",
+  "filosofia_texto": "<p>La filosofía de atención de la Dra. Paola Parra se basa en comprender que cada paciente es único. Por ello, cada plan terapéutico se construye de manera individual, combinando la evaluación clínica, herramientas tecnológicas como la bioresonancia y terapias integrativas seleccionadas según las necesidades específicas de cada persona.</p><p>El objetivo no es únicamente aliviar el dolor o controlar una enfermedad, sino ayudar al organismo a recuperar su equilibrio, mejorar su funcionamiento y promover una mejor calidad de vida de manera sostenible.</p>",
+  "filosofia_nota": "Las terapias integrativas son un complemento de la atención médica y deben ser indicadas por un profesional de la salud tras una valoración."
+ },
+ "equipo": {
+  "intro_titulo": "El equipo detrás de tu bienestar.",
+  "intro_texto": "Un equipo con experiencia global y listo para trabajar contigo desde el diagnóstico hasta tu plan de tratamiento y su medición.",
+  "equipo_cantidad": 4,
+  "longevidad_titulo": "Tecnología para la longevidad",
+  "longevidad_texto": "Integramos terapias de luz, hidrógeno molecular y microcorrientes como apoyo para disminuir el dolor y la inflamación, mejorar la calidad de la piel y el descanso, y recuperar tu energía diaria. También acompañamos el envejecimiento saludable en procesos asociados a la pérdida de memoria y el cansancio crónico, siempre como parte de un plan integral.",
+  "longevidad_video_imagen": "@glass-study.png",
+  "longevidad_video_url": "",
+  "diagnostico_titulo": "Tecnología para el diagnóstico",
+  "diagnostico_texto": "Medimos lo que otros estiman. Con evaluaciones no invasivas de composición corporal 3D, perfil de vitaminas y minerales y salud intestinal, junto con el estudio de bioresonancia como apoyo diagnóstico, obtienes datos en lugar de impresiones para diseñar un plan más preciso.",
+  "diagnostico_video_imagen": "@movement-study.png",
+  "diagnostico_video_url": ""
+ },
+ "hub": {
+  "hero_eyebrow": "Medicina funcional e integrativa",
+  "hero_titulo": "Enfermedades y terapias.",
+  "hero_texto": "Buscamos comprender el origen de la enfermedad y no únicamente aliviar sus síntomas. Conoce las condiciones que acompañamos y las terapias que integramos en tu plan.",
+  "enfermedades_titulo": "Enfermedades y síntomas.",
+  "enfermedades_texto": "La medicina funcional e integrativa puede ser una excelente alternativa o complemento para pacientes que presentan:",
+  "terapias_titulo": "Terapias integrativas.",
+  "terapias_texto": "Con la información de tu valoración diseñamos un protocolo individual que puede combinar distintas terapias, según las necesidades de cada paciente."
+ },
+ "valoracion": {
+  "hero_eyebrow": "Evaluación inicial AETRA",
+  "hero_titulo": "El primer paso es escucharte.",
+  "hero_texto": "Es tu punto de partida: consulta integral, mediciones, informe y plan.",
+  "como_titulo": "¿Cómo es la valoración?",
+  "como_texto": "<p>Cada paciente recibe una consulta completamente personalizada que incluye una evaluación profunda de factores como los que ves aquí.</p>\n<p>Además de la valoración médica tradicional, la Dra. Paola Parra incorpora un <a href=\"{{link:terapia-bioresonancia}}\">estudio de bioresonancia</a>, una herramienta tecnológica que aporta información complementaria sobre el funcionamiento del organismo y facilita un plan terapéutico mucho más preciso y personalizado.</p>",
+  "como_nota": "La bioresonancia no reemplaza el criterio médico ni los exámenes clínicos convencionales: actúa como un apoyo diagnóstico.",
+  "factores": "Historia clínica completa.\nHábitos de alimentación.\nCalidad del sueño.\nNivel de estrés.\nEstado hormonal.\nSalud intestinal.\nEstado metabólico.\nDolor muscular y articular.\nInflamación.\nEstado emocional.\nNivel energético.\nAntecedentes familiares.",
+  "visita_titulo": "Así es tu primera visita.",
+  "visita_1": {
+   "titulo": "Antes.",
+   "texto": "Al agendar, te enviamos indicaciones para prepararte. Algunas evaluaciones requieren ayuno o una preparación específica."
+  },
+  "visita_2": {
+   "titulo": "Durante.",
+   "texto": "Estarás 60 minutos con la Dra. Paola Parra y las mediciones indicadas para tu caso, en un espacio pensado para que te sientas en calma."
+  },
+  "visita_3": {
+   "titulo": "Después.",
+   "texto": "En 5 días hábiles tendrás tu cita de resultados. Revisaremos juntos tu informe y te entregaremos un plan personalizado, diseñado de acuerdo con tus necesidades."
+  }
+ },
+ "faq": {
+  "hero_eyebrow": "Preguntas frecuentes",
+  "hero_titulo": "Conversemos con claridad.",
+  "hero_texto": "Respuestas a las dudas más comunes sobre la valoración, la medicina de la longevidad y nuestras terapias."
+ },
+ "preguntas": [
+  {
+   "titulo": "¿AETRA reemplaza a mis especialistas o el tratamiento que ya recibo?",
+   "contenido": "<p>No. No reemplazamos a tus especialistas ni el tratamiento que ya recibes: lo complementamos. Cuando lo necesites, mantenemos comunicación con tus médicos tratantes.</p>"
+  },
+  {
+   "titulo": "¿Qué es la medicina de la longevidad?",
+   "contenido": "<p>Es un modelo de atención preventiva y personalizada cuyo objetivo no es únicamente vivir más años, sino vivirlos con mayor salud, energía, autonomía y calidad de vida. Busca identificar a tiempo los factores de riesgo y optimizar el funcionamiento del organismo.</p>"
+  },
+  {
+   "titulo": "¿Para quién es la medicina de la longevidad?",
+   "contenido": "<p>Para personas que desean tomar un papel activo en el cuidado de su salud: adultos a partir de los 30 o 40 años, ejecutivos, deportistas, emprendedores, personas con antecedentes familiares de enfermedades crónicas o quienes, aun sintiéndose saludables, quieren conocer el verdadero estado de su organismo.</p>"
+  },
+  {
+   "titulo": "¿Qué es la medicina funcional e integrativa?",
+   "contenido": "<p>Es un enfoque médico que busca comprender el origen de la enfermedad y no únicamente aliviar sus síntomas, analizando al paciente de manera integral porque todos los sistemas del organismo están conectados.</p>"
+  },
+  {
+   "titulo": "¿Cuánto dura la primera visita?",
+   "contenido": "<p>Estarás 60 minutos con la Dra. Paola Parra y las mediciones indicadas para tu caso.</p>"
+  },
+  {
+   "titulo": "¿Debo prepararme para la valoración?",
+   "contenido": "<p>Sí. Al agendar te enviamos indicaciones para prepararte. Algunas evaluaciones requieren ayuno o una preparación específica.</p>"
+  },
+  {
+   "titulo": "¿Cuándo recibo mis resultados?",
+   "contenido": "<p>En 5 días hábiles tendrás tu cita de resultados. Revisaremos juntos tu informe y te entregaremos un plan personalizado.</p>"
+  },
+  {
+   "titulo": "¿La bioresonancia es un diagnóstico?",
+   "contenido": "<p>No por sí sola. Es una herramienta de apoyo que aporta información complementaria; no reemplaza los exámenes médicos convencionales y siempre la interpreta el profesional de la salud junto con tu historia clínica.</p>"
+  },
+  {
+   "titulo": "¿La terapia neural es segura?",
+   "contenido": "<p>Debe ser realizada exclusivamente por un médico capacitado, con agujas muy finas y dosis seguras del medicamento, por lo que suele ser bien tolerada. Como cualquier procedimiento médico, requiere una valoración individual.</p>"
+  },
+  {
+   "titulo": "¿Qué enfermedades pueden tratarse?",
+   "contenido": "<p>Acompañamos dolor crónico, procesos inflamatorios, trastornos metabólicos, alteraciones hormonales, salud digestiva, salud emocional y sistema inmune. Conócelas en <a href=\"{{link:enfermedades-y-terapias}}\">Enfermedades y terapias</a>.</p>"
+  }
+ ],
+ "programas": [
+  {
+   "slug": "core",
+   "titulo": "AETRA CORE",
+   "fields": {
+    "paleta": "core",
+    "nivel": "Nivel esencial",
+    "resumen": "La base de tu seguimiento de longevidad.",
+    "hero_texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "como_texto": "Medimos tu estado actual con tecnología de precisión y una consulta médica profunda, traducimos los resultados en información clara, diseñamos contigo un plan personalizado y hacemos seguimiento para ajustarlo a tu evolución.",
+    "como_video_imagen": "@draparra-escritorio.png",
+    "como_video_url": "",
+    "incluye_texto": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+    "incluye_video_imagen": "@recepcion.png",
+    "incluye_video_url": "",
+    "audiencia": "Lorem ipsum dolor sit amet consectetur\nAdipiscing elit sed do eiusmod tempor\nIncididunt ut labore et dolore magna\nAliqua ut enim ad minim veniam",
+    "doctora_titulo": "Acompañada por la Dra. Paola Parra.",
+    "doctora_texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "doctora_imagen": "@contrapicado-parra-flip.png"
+   }
+  },
+  {
+   "slug": "advanced",
+   "titulo": "AETRA ADVANCED",
+   "fields": {
+    "paleta": "advanced",
+    "nivel": "Nivel avanzado",
+    "resumen": "Mayor profundidad en medición y acompañamiento.",
+    "hero_texto": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat, para quienes buscan ir un paso más allá.",
+    "como_texto": "Medimos tu estado actual con tecnología de precisión y una consulta médica profunda, traducimos los resultados en información clara, diseñamos contigo un plan personalizado y hacemos seguimiento para ajustarlo a tu evolución.",
+    "como_video_imagen": "@draparra-escritorio.png",
+    "como_video_url": "",
+    "incluye_texto": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.",
+    "incluye_video_imagen": "@recepcion.png",
+    "incluye_video_url": "",
+    "audiencia": "Nemo enim ipsam voluptatem quia voluptas\nSit aspernatur aut odit aut fugit sed quia\nConsequuntur magni dolores eos qui ratione\nVoluptatem sequi nesciunt neque porro",
+    "doctora_titulo": "Un seguimiento cercano con la Dra. Paola Parra.",
+    "doctora_texto": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "doctora_imagen": "@contrapicado-parra-flip.png"
+   }
+  },
+  {
+   "slug": "gold",
+   "titulo": "AETRA GOLD",
+   "fields": {
+    "paleta": "gold",
+    "nivel": "Nivel integral",
+    "resumen": "La experiencia AETRA más completa y personalizada.",
+    "hero_texto": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, la experiencia más completa de AETRA.",
+    "como_texto": "Medimos tu estado actual con tecnología de precisión y una consulta médica profunda, traducimos los resultados en información clara, diseñamos contigo un plan personalizado y hacemos seguimiento para ajustarlo a tu evolución.",
+    "como_video_imagen": "@draparra-escritorio.png",
+    "como_video_url": "",
+    "incluye_texto": "Et harum quidem rerum facilis est et expedita distinctio, nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus.",
+    "incluye_video_imagen": "@recepcion.png",
+    "incluye_video_url": "",
+    "audiencia": "Temporibus autem quibusdam et aut officiis\nDebitis aut rerum necessitatibus saepe eveniet\nUt et voluptates repudiandae sint et molestiae\nNon recusandae itaque earum rerum hic tenetur",
+    "doctora_titulo": "Una experiencia guiada por la Dra. Paola Parra.",
+    "doctora_texto": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+    "doctora_imagen": "@contrapicado-parra-flip.png"
+   }
+  }
+ ],
+ "enfermedades": [
+  {
+   "slug": "dolor-cronico",
+   "titulo": "Dolor crónico",
+   "extracto": "Fibromialgia, dolor muscular, articular y lumbar, migrañas, cefaleas y tendinitis.",
+   "contenido": "<p>El dolor que persiste en el tiempo rara vez tiene una sola causa. Desde la medicina funcional e integrativa buscamos los factores que lo mantienen —inflamación, tensión muscular, alteraciones en la regulación del sistema nervioso, hábitos o estrés— para tratar su origen y no únicamente controlarlo.</p>\n<p>Queremos que sepas algo desde el principio: te escuchamos, lo que sientes es real y para nosotros tiene sentido.</p>",
+   "fields": {
+    "titulo_largo": "Dolor crónico: tratar el origen, no solo el síntoma.",
+    "entradilla": "Vivir con dolor cambia la forma en que vives cada día. Muchas personas llegan a nosotros después de años de consultas, exámenes y tratamientos que ayudaron solo en parte.",
+    "condiciones": "Fibromialgia.\nDolor muscular.\nDolor articular.\nDolor lumbar.\nMigrañas.\nCefaleas.\nTendinitis.",
+    "nota": ""
+   },
+   "terapias": [
+    "terapia-neural",
+    "homosiniatria",
+    "ozonoterapia-mayor",
+    "auriculoterapia"
+   ],
+   "meta": "Fibromialgia, migrañas, dolor lumbar, muscular o articular: cómo la medicina funcional e integrativa de AETRA aborda el dolor crónico."
+  },
+  {
+   "slug": "procesos-inflamatorios",
+   "titulo": "Procesos inflamatorios",
+   "extracto": "Inflamación crónica, dolores persistentes y apoyo complementario en enfermedades autoinmunes.",
+   "contenido": "<p>El enfoque integrativo busca disminuir los procesos inflamatorios del organismo y mejorar el funcionamiento del sistema inmune, entendiendo que todos los sistemas del cuerpo están conectados.</p>\n<p>En enfermedades autoinmunes, nuestro trabajo es complementario: no reemplazamos a tus especialistas ni el tratamiento que ya recibes, lo acompañamos para mejorar tu bienestar y tu calidad de vida.</p>",
+   "fields": {
+    "titulo_largo": "Inflamación crónica y enfermedades autoinmunes.",
+    "entradilla": "La inflamación persistente puede estar detrás del dolor, la fatiga y el malestar general, incluso cuando los exámenes convencionales no muestran una causa clara.",
+    "condiciones": "Inflamación crónica.\nEnfermedades autoinmunes (como apoyo complementario).\nDolores persistentes.",
+    "nota": ""
+   },
+   "terapias": [
+    "ozonoterapia-mayor",
+    "ozonoterapia-menor",
+    "terapia-neural",
+    "homosiniatria",
+    "detox"
+   ],
+   "meta": "Inflamación crónica, dolores persistentes y apoyo complementario en enfermedades autoinmunes con medicina integrativa en AETRA."
+  },
+  {
+   "slug": "trastornos-metabolicos",
+   "titulo": "Trastornos metabólicos",
+   "extracto": "Resistencia a la insulina, prediabetes, diabetes, sobrepeso, obesidad y síndrome metabólico.",
+   "contenido": "<p>Evaluamos tu estado metabólico, tus hábitos de alimentación, tu composición corporal y tu nivel energético para identificar qué está generando el desequilibrio.</p>\n<p>Con esa información diseñamos un plan personalizado que busca optimizar tu metabolismo y, en el caso de la diabetes, complementar el tratamiento indicado por tus médicos tratantes.</p>",
+   "fields": {
+    "titulo_largo": "Resistencia a la insulina, sobrepeso y salud metabólica.",
+    "entradilla": "Tu metabolismo influye en tu energía, tu peso y tu salud a largo plazo. Entenderlo es el primer paso para optimizarlo.",
+    "condiciones": "Resistencia a la insulina.\nPrediabetes.\nDiabetes (como tratamiento complementario).\nSobrepeso.\nObesidad.\nSíndrome metabólico.",
+    "nota": ""
+   },
+   "terapias": [
+    "detox",
+    "bioresonancia",
+    "auriculoterapia"
+   ],
+   "meta": "Resistencia a la insulina, prediabetes, diabetes, sobrepeso, obesidad y síndrome metabólico: el enfoque integrativo de AETRA."
+  },
+  {
+   "slug": "alteraciones-hormonales",
+   "titulo": "Alteraciones hormonales",
+   "extracto": "Menopausia, perimenopausia, fatiga suprarrenal, alteraciones tiroideas y ovario poliquístico.",
+   "contenido": "<p>Dentro de la valoración evaluamos tu estado hormonal junto con tu metabolismo, tu calidad del sueño, tu nivel de estrés y tu salud intestinal, porque el equilibrio hormonal depende de todos ellos.</p>\n<p>El objetivo es favorecer el equilibrio hormonal dentro de un plan integral y personalizado, como apoyo al acompañamiento médico que ya recibes.</p>",
+   "fields": {
+    "titulo_largo": "Menopausia, tiroides y equilibrio hormonal.",
+    "entradilla": "Los cambios hormonales pueden afectar tu energía, tu sueño, tu peso y tu estado de ánimo. No tienes por qué asumirlos como algo inevitable.",
+    "condiciones": "Menopausia.\nPerimenopausia.\nFatiga suprarrenal.\nAlteraciones tiroideas.\nSíndrome de ovario poliquístico (como apoyo).",
+    "nota": ""
+   },
+   "terapias": [
+    "bioresonancia",
+    "detox",
+    "auriculoterapia"
+   ],
+   "meta": "Menopausia, perimenopausia, fatiga suprarrenal, alteraciones tiroideas y ovario poliquístico: medicina integrativa en AETRA."
+  },
+  {
+   "slug": "salud-digestiva",
+   "titulo": "Salud digestiva",
+   "extracto": "Colon irritable, gastritis recurrente, distensión abdominal, estreñimiento y alteraciones intestinales.",
+   "contenido": "<p>Evaluamos tu digestión, tus hábitos de alimentación y posibles intolerancias alimentarias. Cuando está indicada, la prueba de aliento permite evaluar si hay sobrecrecimiento bacteriano en el intestino delgado, una condición asociada a síntomas como la distensión abdominal.</p>\n<p>Con esa información diseñamos un plan orientado a mejorar tu salud intestinal y a disminuir la inflamación.</p>",
+   "fields": {
+    "titulo_largo": "Colon irritable, gastritis y salud intestinal.",
+    "entradilla": "La distensión, la gastritis o el colon irritable son señales de que tu salud intestinal merece atención, y suelen influir en tu energía y tu bienestar general.",
+    "condiciones": "Colon irritable.\nGastritis recurrente.\nDistensión abdominal.\nEstreñimiento.\nAlteraciones intestinales.",
+    "nota": ""
+   },
+   "terapias": [
+    "ozonoterapia-intrarrectal",
+    "detox",
+    "bioresonancia"
+   ],
+   "meta": "Colon irritable, gastritis recurrente, distensión abdominal y estreñimiento: cómo AETRA cuida tu salud intestinal."
+  },
+  {
+   "slug": "salud-emocional",
+   "titulo": "Salud emocional",
+   "extracto": "Estrés crónico, ansiedad, fatiga, agotamiento y trastornos del sueño.",
+   "contenido": "<p>La valoración integra tu estado emocional, tu nivel de estrés, tu calidad del sueño y tu nivel energético, junto con el resto de tu historia clínica.</p>\n<p>Dependiendo de tus necesidades, el plan puede combinar terapias integrativas que ayudan a disminuir la ansiedad, reducir el estrés y favorecer el descanso.</p>",
+   "fields": {
+    "titulo_largo": "Estrés, ansiedad, fatiga y sueño.",
+    "entradilla": "El estrés, la ansiedad y el cansancio impactan tu cuerpo tanto como tu mente. Por eso los abordamos como parte de tu salud, no por separado.",
+    "condiciones": "Estrés crónico.\nAnsiedad.\nFatiga.\nAgotamiento.\nTrastornos del sueño.",
+    "nota": ""
+   },
+   "terapias": [
+    "auriculoterapia",
+    "biodescodificacion",
+    "terapia-neural"
+   ],
+   "meta": "Estrés crónico, ansiedad, fatiga, agotamiento y trastornos del sueño: el abordaje integral de AETRA."
+  },
+  {
+   "slug": "sistema-inmune",
+   "titulo": "Sistema inmune",
+   "extracto": "Inmunidad baja, recuperación prolongada e infecciones recurrentes.",
+   "contenido": "<p>La medicina integrativa busca mejorar el funcionamiento del sistema inmune y estimular las defensas naturales del organismo, como parte de un plan personalizado.</p>\n<p>Evaluamos tu historia clínica, tu nutrición, tu salud intestinal y tu nivel de estrés, factores que influyen directamente en tu capacidad de defensa.</p>",
+   "fields": {
+    "titulo_largo": "Inmunidad baja e infecciones recurrentes.",
+    "entradilla": "Enfermarte con frecuencia o tardar en recuperarte puede indicar que tu sistema inmune necesita apoyo.",
+    "condiciones": "Inmunidad baja.\nRecuperación prolongada.\nInfecciones recurrentes.",
+    "nota": ""
+   },
+   "terapias": [
+    "ozonoterapia-menor",
+    "ozonoterapia-mayor",
+    "ozonoterapia-intrarrectal"
+   ],
+   "meta": "Inmunidad baja, infecciones recurrentes y recuperación prolongada: cómo AETRA fortalece tu sistema inmune."
+  }
+ ],
+ "terapias": [
+  {
+   "slug": "ozonoterapia-mayor",
+   "titulo": "Ozonoterapia mayor",
+   "extracto": "Uno de los tratamientos más utilizados en medicina integrativa para disminuir la inflamación y favorecer la oxigenación celular.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Es uno de los tratamientos más utilizados dentro de la medicina integrativa.</p>\n<p>Consiste en extraer una pequeña cantidad de sangre del paciente, mezclarla con una concentración controlada de ozono medicinal y posteriormente reinfundirla al organismo.</p>",
+   "fields": {
+    "beneficios": "Disminuye la inflamación.\nFavorece la oxigenación celular.\nEstimula el sistema inmunológico.\nAyuda en enfermedades crónicas.\nFavorece la recuperación física.\nReduce el estrés oxidativo.\nIncrementa la producción de energía celular.",
+    "indicaciones": "Fatiga crónica.\nFibromialgia.\nEnfermedades inflamatorias.\nDolor crónico.\nRecuperación deportiva.\nApoyo en enfermedades autoinmunes.",
+    "nota": ""
+   },
+   "meta": "Qué es la ozonoterapia mayor, sus beneficios e indicaciones: inflamación, fatiga crónica, fibromialgia y dolor crónico."
+  },
+  {
+   "slug": "ozonoterapia-menor",
+   "titulo": "Ozonoterapia menor",
+   "extracto": "Estimula y modula el sistema inmunológico mediante una aplicación intramuscular de ozono medicinal.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Se obtiene una pequeña muestra de sangre del paciente, se mezcla con ozono medicinal y posteriormente se aplica mediante una inyección intramuscular.</p>",
+   "fields": {
+    "beneficios": "Estimula las defensas.\nModula el sistema inmunológico.\nDisminuye procesos inflamatorios.\nFavorece la recuperación del organismo.",
+    "indicaciones": "Alergias.\nInmunidad baja.\nProcesos inflamatorios leves.\nPrevención y fortalecimiento inmunológico.",
+    "nota": ""
+   },
+   "meta": "Qué es la ozonoterapia menor, sus beneficios e indicaciones: alergias, inmunidad baja y procesos inflamatorios leves."
+  },
+  {
+   "slug": "ozonoterapia-intrarrectal",
+   "titulo": "Ozonoterapia intrarrectal",
+   "extracto": "Una técnica cómoda y poco invasiva que favorece la salud intestinal y la oxigenación.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Es una técnica mediante la cual el ozono medicinal se administra por vía rectal utilizando una sonda especializada.</p>\n<p>Permite una absorción rápida hacia el torrente sanguíneo sin necesidad de realizar procedimientos intravenosos.</p>",
+   "fields": {
+    "beneficios": "Mejora la oxigenación.\nReduce la inflamación.\nFavorece la salud intestinal.\nEstimula el sistema inmune.\nEs un procedimiento cómodo y poco invasivo.",
+    "indicaciones": "Enfermedades digestivas.\nInflamación intestinal.\nFatiga.\nDolor crónico.\nTerapias de mantenimiento.",
+    "nota": ""
+   },
+   "meta": "Qué es la ozonoterapia intrarrectal, sus beneficios e indicaciones: salud intestinal, inflamación, fatiga y dolor crónico."
+  },
+  {
+   "slug": "homosiniatria",
+   "titulo": "Homosiniatría",
+   "extracto": "Combina la acupuntura con medicamentos bioreguladores para estimular la autorregulación del organismo.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Es una técnica que combina la acupuntura con la aplicación de medicamentos bioreguladores u homeopáticos en puntos específicos del cuerpo.</p>\n<p>Su objetivo es estimular los mecanismos naturales de autorregulación del organismo.</p>",
+   "fields": {
+    "beneficios": "Disminuye el dolor.\nReduce la inflamación.\nFavorece la recuperación muscular.\nMejora procesos degenerativos.\nEstimula la capacidad de reparación del cuerpo.",
+    "indicaciones": "Dolores articulares.\nDolores musculares.\nTendinitis.\nContracturas.\nLesiones deportivas.",
+    "nota": ""
+   },
+   "meta": "Qué es la homosiniatría, sus beneficios e indicaciones: dolores articulares y musculares, tendinitis y lesiones deportivas."
+  },
+  {
+   "slug": "auriculoterapia",
+   "titulo": "Auriculoterapia",
+   "extracto": "Estimulación de puntos del pabellón auricular para reducir el estrés, la ansiedad y favorecer el descanso.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Es una terapia basada en la estimulación de puntos específicos del pabellón auricular, que se relacionan con diferentes órganos y sistemas del cuerpo.</p>\n<p>Puede realizarse mediante agujas muy finas, semillas o pequeños dispositivos terapéuticos.</p>",
+   "fields": {
+    "beneficios": "Disminuye la ansiedad.\nReduce el estrés.\nAyuda a controlar el apetito.\nFavorece el descanso.\nComplementa tratamientos para el dolor.",
+    "indicaciones": "Estrés.\nAnsiedad.\nInsomnio.\nMigrañas.\nDolor.\nControl de peso.",
+    "nota": ""
+   },
+   "meta": "Qué es la auriculoterapia, sus beneficios e indicaciones: estrés, ansiedad, insomnio, migrañas, dolor y control de peso."
+  },
+  {
+   "slug": "detox",
+   "titulo": "Protocolo detox",
+   "extracto": "Un protocolo de 5 sesiones que favorece los procesos naturales de desintoxicación del organismo.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Es un protocolo de 5 sesiones diseñado para favorecer los procesos naturales de desintoxicación del organismo, mediante la combinación de diferentes terapias integrativas según la valoración médica de cada paciente.</p>\n<p>El tratamiento busca optimizar el funcionamiento de órganos como el hígado, el intestino y el sistema linfático, promoviendo un mejor equilibrio metabólico.</p>",
+   "fields": {
+    "beneficios": "Favorece la eliminación de toxinas.\nMejora la energía.\nReduce la inflamación.\nMejora la digestión.\nFavorece el metabolismo.\nOptimiza el bienestar general.",
+    "indicaciones": "",
+    "nota": ""
+   },
+   "meta": "Qué es el protocolo detox de AETRA (5 sesiones): favorece la desintoxicación, la energía, la digestión y el metabolismo."
+  },
+  {
+   "slug": "bioresonancia",
+   "titulo": "Estudio de bioresonancia",
+   "extracto": "Una evaluación tecnológica que aporta información complementaria sobre el funcionamiento del organismo.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Es una evaluación tecnológica que analiza diferentes parámetros funcionales del organismo mediante la medición de respuestas bioenergéticas.</p>\n<p>Su finalidad es aportar información complementaria al examen clínico para ayudar al médico a identificar posibles desequilibrios en distintos sistemas del cuerpo, y facilitar la elaboración de un plan terapéutico más preciso y personalizado.</p>\n<h2>¿Qué permite evaluar?</h2>\n<p>Puede aportar información orientativa sobre:</p>\n<ul><li>Estado nutricional.</li><li>Balance de vitaminas y minerales.</li><li>Estrés oxidativo.</li><li>Funcionamiento metabólico.</li><li>Salud digestiva.</li><li>Posibles intolerancias alimentarias.</li><li>Estado energético.</li><li>Marcadores funcionales relacionados con distintos sistemas del organismo.</li></ul>",
+   "fields": {
+    "beneficios": "Permite una evaluación más integral.\nAyuda a personalizar el tratamiento.\nFacilita el seguimiento de la evolución del paciente.\nComplementa la valoración médica.",
+    "indicaciones": "",
+    "nota": "La bioresonancia no reemplaza los exámenes médicos convencionales ni constituye un diagnóstico por sí sola. Se utiliza como una herramienta de apoyo dentro de un enfoque integrativo, siempre interpretada por el profesional de la salud en conjunto con la historia clínica y la valoración médica."
+   },
+   "meta": "Qué es el estudio de bioresonancia, qué permite evaluar y cómo complementa la valoración médica en AETRA."
+  },
+  {
+   "slug": "biodescodificacion",
+   "titulo": "Consulta de biodescodificación",
+   "extracto": "Un espacio de 2 horas para explorar la relación entre emociones, experiencias de vida y síntomas físicos.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Es un espacio terapéutico de 2 horas que busca explorar la posible relación entre las emociones, las experiencias de vida y la manifestación de algunos síntomas físicos, como complemento al abordaje médico integral.</p>\n<p>Durante la consulta se realiza un acompañamiento para identificar conflictos emocionales, patrones de comportamiento y factores de estrés que podrían estar influyendo en tu bienestar.</p>",
+   "fields": {
+    "beneficios": "Favorece el autoconocimiento.\nAyuda a identificar patrones emocionales.\nComplementa el manejo integral del estrés.\nPuede contribuir al bienestar emocional y a la adherencia al tratamiento médico.",
+    "indicaciones": "",
+    "nota": "La biodescodificación no sustituye el diagnóstico ni el tratamiento médico. Se utiliza como una herramienta complementaria dentro de un enfoque integrativo."
+   },
+   "meta": "Qué es la consulta de biodescodificación (2 horas): la relación entre emociones, experiencias y síntomas, como complemento médico."
+  },
+  {
+   "slug": "terapia-neural",
+   "titulo": "Terapia neural",
+   "extracto": "Regula el sistema nervioso autónomo para favorecer la autorregulación y la recuperación del organismo.",
+   "contenido": "<h2>¿Qué es?</h2>\n<p>Es un procedimiento médico que consiste en la aplicación de pequeñas cantidades de anestésico local, generalmente procaína, en puntos específicos del cuerpo —cicatrices, ganglios nerviosos, músculos, articulaciones o zonas de dolor— con el objetivo de regular el funcionamiento del sistema nervioso autónomo y favorecer la capacidad natural de autorregulación y recuperación del organismo.</p>\n<p>Desde la medicina integrativa, se considera una herramienta que busca restablecer la comunicación entre los diferentes sistemas del cuerpo cuando se ha visto alterada por procesos inflamatorios, traumatismos, cirugías, infecciones o enfermedades crónicas. No actúa únicamente sobre el sitio del dolor: evalúa al paciente de manera integral para identificar posibles focos de interferencia.</p>\n<h2>¿Cómo funciona?</h2>\n<p>El sistema nervioso coordina el funcionamiento de todos los órganos y tejidos del cuerpo. Cuando existe una alteración en esta regulación, pueden aparecer síntomas persistentes como dolor, inflamación o disfunción de diferentes órganos.</p>\n<p>Mediante la aplicación de procaína en puntos estratégicos, la terapia neural busca restablecer el equilibrio del sistema nervioso, mejorar la circulación local, disminuir la inflamación y estimular los mecanismos naturales de reparación del organismo.</p>\n<p>El procedimiento es realizado por un médico entrenado, con agujas muy finas y dosis seguras del medicamento, por lo que suele ser bien tolerado y de rápida recuperación.</p>\n<p>Dependiendo de la valoración, la Dra. Paola Parra puede combinarla con ozonoterapia, homosiniatría, auriculoterapia, protocolos detox y estrategias de medicina funcional.</p>",
+   "fields": {
+    "beneficios": "Ayuda a disminuir el dolor agudo y crónico.\nContribuye a reducir procesos inflamatorios.\nFavorece la regulación del sistema nervioso autónomo.\nEstimula los procesos naturales de reparación del organismo.\nPuede mejorar la movilidad y la función de músculos y articulaciones.\nSe integra fácilmente con otros tratamientos de medicina funcional e integrativa.\nPromueve una mejor calidad de vida al abordar la causa funcional de algunos síntomas.",
+    "indicaciones": "Dolor crónico.\nFibromialgia.\nDolor cervical y lumbar.\nMigrañas y cefaleas.\nNeuralgias.\nTendinitis.\nFascitis plantar.\nDolores articulares.\nLesiones deportivas.\nDolor posterior a cirugías o traumatismos.\nCicatrices dolorosas o consideradas campos interferentes.\nEstrés y trastornos funcionales asociados al sistema nervioso autónomo.",
+    "nota": "La terapia neural debe ser realizada exclusivamente por un médico capacitado. Como cualquier procedimiento médico, requiere una valoración individual para determinar si es adecuada para cada paciente y forma parte de un plan terapéutico integral."
+   },
+   "meta": "Qué es la terapia neural, cómo funciona, sus beneficios e indicaciones: dolor crónico, fibromialgia, migrañas, neuralgias y lesiones."
+  }
+ ],
+ "profesionales": [
+  {
+   "titulo": "Dra. Paola Parra",
+   "especialidad": "Medicina Integrativa y Anti-edad",
+   "foto": "@dra-parra-profile.png"
+  },
+  {
+   "titulo": "Dr. Lorem Ipsum",
+   "especialidad": "Medicina lorem ipsum",
+   "foto": ""
+  },
+  {
+   "titulo": "Dra. Lorem Ipsum",
+   "especialidad": "Dolor sit amet consectetur",
+   "foto": ""
+  },
+  {
+   "titulo": "Dr. Lorem Ipsum",
+   "especialidad": "Adipiscing elit sed do",
+   "foto": ""
+  },
+  {
+   "titulo": "Dra. Lorem Ipsum",
+   "especialidad": "Eiusmod tempor incididunt",
+   "foto": ""
+  },
+  {
+   "titulo": "Dr. Lorem Ipsum",
+   "especialidad": "Ut labore et dolore",
+   "foto": ""
+  }
+ ],
+ "historias": [
+  {
+   "titulo": "Lorem ipsum dolor sit",
+   "imagen": "@mujer-padel.png",
+   "youtube": "",
+   "formato": "16/9"
+  },
+  {
+   "titulo": "Consectetur adipiscing elit",
+   "imagen": "@abuelo-nieto.png",
+   "youtube": "",
+   "formato": "16/9"
+  },
+  {
+   "titulo": "Sed do eiusmod tempor",
+   "imagen": "@draparra-escritorio.png",
+   "youtube": "",
+   "formato": "16/9"
+  },
+  {
+   "titulo": "Incididunt ut labore",
+   "imagen": "@horizonte-empresario.png",
+   "youtube": "",
+   "formato": "16/9"
+  },
+  {
+   "titulo": "Et dolore magna aliqua",
+   "imagen": "@abuelo-futbol.png",
+   "youtube": "",
+   "formato": "16/9"
+  },
+  {
+   "titulo": "Ut enim ad minim",
+   "imagen": "@recepcion.png",
+   "youtube": "",
+   "formato": "16/9"
+  },
+  {
+   "titulo": "Quis nostrud exercitation",
+   "imagen": "@movement-study.png",
+   "youtube": "",
+   "formato": "16/9"
+  },
+  {
+   "titulo": "Ullamco laboris nisi",
+   "imagen": "@glass-study.png",
+   "youtube": "",
+   "formato": "16/9"
+  }
+ ],
+ "legado": {
+  "terminos": {
+   "titulo": "Términos y privacidad",
+   "contenido": "<section class=\"section\">\n<div class=\"container legal-layout\">\n<aside>\n<div class=\"section-label eyebrow\">\n<span>01</span>\n<span>/ Información legal</span>\n</div>\n<h1 class=\"type-h1\">Términos y<br>privacidad.</h1>\n<nav class=\"legal-nav\" aria-label=\"Secciones legales\">\n<a class=\"text-link\" href=\"#terminos\">Términos del sitio</a>\n<a class=\"text-link\" href=\"#privacidad\">Privacidad</a>\n<a class=\"text-link\" href=\"#contenidos\">Estado de los contenidos</a>\n</nav>\n</aside>\n<div class=\"legal-copy\">\n<section id=\"terminos\">\n<h2 class=\"type-h3\">Términos y condiciones</h2>\n<p class=\"caption pending\">Pendiente de contenido aprobado · texto legal, titular del sitio, identificación y condiciones de uso. Este espacio no constituye términos definitivos.</p>\n</section>\n<section id=\"privacidad\">\n<h2 class=\"type-h3\">Privacidad</h2>\n<p class=\"caption pending\">Pendiente de contenido aprobado · política de tratamiento de datos, responsable, canales y autorizaciones.</p>\n<p>Esta versión del frontend no envía formularios, no utiliza analítica ni almacena respuestas del recorrido de intereses. Las respuestas permanecen únicamente en memoria mientras la página está abierta.</p>\n</section>\n<section id=\"contenidos\">\n<h2 class=\"type-h3\">Estado de los contenidos</h2>\n<p>Los espacios señalados como pendientes requieren información aprobada antes de su publicación. Las imágenes conceptuales no representan pacientes ni resultados de tratamientos.</p>\n<p>La agenda, los testimonios, el test clínico y el catálogo definitivo de programas están pendientes de integración o aprobación.</p>\n</section>\n</div>\n</div>\n</section>"
+  },
+  "contacto": {
+   "titulo": "Contacto",
+   "contenido": "<section class=\"section contact-intro surface-dark\">\n<div class=\"container\">\n<div class=\"section-label eyebrow\">\n<span>01</span>\n<span>/ Contacto</span>\n</div>\n<h1 class=\"type-display reveal-up\">Comencemos<br>por escucharte.</h1>\n<p class=\"section-copy type-body-large\">El primer paso es una conversación.</p>\n</div>\n</section>\n<section class=\"section\">\n<div class=\"container contact-layout\">\n<div>\n<h2 class=\"type-h2\">Nuestros canales.</h2>\n<dl class=\"health-list\">\n<div>\n<dt>Teléfono / WhatsApp</dt>\n<dd>Por confirmar</dd>\n</div>\n<div>\n<dt>Correo</dt>\n<dd>Por confirmar</dd>\n</div>\n<div>\n<dt>Dirección</dt>\n<dd>Por confirmar</dd>\n</div>\n<div>\n<dt>Horario</dt>\n<dd>Por confirmar</dd>\n</div>\n</dl>\n<p class=\"caption pending\">Pendiente de contenido aprobado · datos oficiales de contacto.</p>\n<div class=\"section-rule line-reveal\">\n</div>\n<a class=\"text-link\" href=\"{{link:preguntas-frecuentes}}\">Preguntas frecuentes<svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</a>\n</div>\n<section class=\"glass glass--light glass--02 glass-card scale-reveal\" aria-labelledby=\"contact-title\">\n<p class=\"eyebrow\">Solicitud de contacto</p>\n<h2 class=\"type-h3\" id=\"contact-title\">Tu próximo paso.</h2>\n<p class=\"body-small\">Formulario en preparación. El envío estará disponible cuando se confirmen los canales y la política de privacidad.</p>\n<form>\n<fieldset disabled>\n<div class=\"form-grid\">\n<div class=\"field\">\n<label for=\"name\">Nombre</label>\n<input id=\"name\" name=\"name\" autocomplete=\"name\" placeholder=\"Tu nombre\">\n</div>\n<div class=\"field\">\n<label for=\"email\">Correo electrónico</label>\n<input id=\"email\" name=\"email\" type=\"email\" autocomplete=\"email\" placeholder=\"Tu correo\">\n</div>\n<div class=\"field field-wide\">\n<label for=\"reason\">Motivo de contacto</label>\n<select id=\"reason\" name=\"reason\">\n<option>Valoración inicial</option>\n<option>Información general</option>\n</select>\n</div>\n<div class=\"field field-wide\">\n<button class=\"button button--primary\" disabled>Envío próximamente</button>\n</div>\n</div>\n</fieldset>\n</form>\n<p class=\"caption\">No se reciben ni almacenan datos en esta versión.</p>\n<a class=\"text-link\" href=\"{{link:valoracion-inicial}}\">Conocer la valoración<svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</a>\n</section>\n</div>\n</section>"
+  },
+  "articulos": {
+   "titulo": "Artículos",
+   "contenido": "<section class=\"section\">\n<div class=\"container\">\n<div class=\"journal-heading\">\n<div class=\"section-label eyebrow\">\n<span>01</span>\n<span>/ Ciencia / Recursos</span>\n</div>\n<h1 class=\"type-h1 reveal-up\">Entender también<br>es parte del cuidado.</h1>\n<p class=\"type-body section-copy\">El espacio editorial de AETRA.</p>\n</div>\n<div class=\"journal-feature\">\n<div class=\"image-frame image-reveal\">\n<img class=\"\" src=\"{{img:glass-study.png}}\" alt=\"Estudio editorial de vidrio y luz\" loading=\"lazy\" width=\"1536\" height=\"1024\">\n</div>\n<div>\n<p class=\"eyebrow\">Edición en preparación</p>\n<h2 class=\"type-h2 reveal-up\">Una mirada integral<br>a tu salud.</h2>\n<p class=\"caption pending\">Pendiente de contenido aprobado · artículos, fuentes, autoría y revisión médica. No hay estudios ni artículos publicados en esta versión.</p>\n</div>\n</div>\n</div>\n</section>\n<section class=\"section\">\n<div class=\"container\">\n<div class=\"three-up\">\n<article class=\"editorial-card reveal-up\" id=\"integral\">\n<p class=\"eyebrow\">01 / Artículo</p>\n<h2 class=\"type-h3\">Una mirada integral a tu salud</h2>\n<p class=\"caption pending\">Pendiente de contenido aprobado · contenido editorial, autoría y fecha de publicación.</p>\n</article>\n<article class=\"editorial-card reveal-up\" id=\"conversacion\">\n<p class=\"eyebrow\">02 / Conversación</p>\n<h2 class=\"type-h3\">Conocer el enfoque AETRA</h2>\n<p class=\"caption pending\">Pendiente de contenido aprobado · contenido editorial, autoría y fecha de publicación.</p>\n</article>\n<article class=\"editorial-card reveal-up\" id=\"guia\">\n<p class=\"eyebrow\">03 / Guía</p>\n<h2 class=\"type-h3\">Preparar tu primera valoración</h2>\n<p class=\"caption pending\">Pendiente de contenido aprobado · contenido editorial, autoría y fecha de publicación.</p>\n</article>\n</div>\n</div>\n</section>\n<section class=\"section final-cta surface-dark\">\n<div class=\"container relative\">\n<svg class=\"aetra-graphic editorial-arc\" viewBox=\"0 0 200 160\" aria-hidden=\"true\">\n<use href=\"#AetraArc\">\n</use>\n</svg>\n<div class=\"cta-copy\">\n<div class=\"section-label eyebrow\">\n<span>AETRA</span>\n<span>/ El primer paso</span>\n</div>\n<h2 class=\"type-h2 reveal-up\">Tu salud merece<br>ser entendida.</h2>\n<p class=\"section-copy\">Conoce la valoración y comencemos por tu historia.</p>\n<a class=\"button button--light\" href=\"{{link:valoracion-inicial}}\">Agenda tu valoración<svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</a>\n</div>\n</div>\n</section>"
+  },
+  "test-longevidad": {
+   "titulo": "Test de longevidad",
+   "contenido": "<section class=\"section\">\n<div class=\"container test-layout\">\n<aside>\n<div class=\"section-label eyebrow\">\n<span>01</span>\n<span>/ Test de longevidad</span>\n</div>\n<h1 class=\"type-h1 reveal-up\">Una pausa<br>para pensar<br>\n<em>en ti.</em>\n</h1>\n<p class=\"section-copy\">Explora los temas sobre los que te gustaría conversar.</p>\n<p class=\"caption pending section-copy\">Vista previa de interacción. El cuestionario clínico está pendiente de aprobación. Este recorrido solo resume tus preferencias; no evalúa tu salud ni calcula tu longevidad.</p>\n<svg class=\"aetra-graphic editorial-arc\" viewBox=\"0 0 200 160\" aria-hidden=\"true\">\n<use href=\"#AetraArc\">\n</use>\n</svg>\n</aside>\n<div>\n<noscript>\n<p class=\"question-panel\">Activa JavaScript para explorar el recorrido. También puedes <a class=\"text-link\" href=\"{{link:valoracion-inicial}}\">conocer la valoración inicial</a>.</p>\n</noscript>\n<section class=\"question-panel\" id=\"interest-test\" hidden aria-label=\"Exploración de intereses\">\n<p class=\"eyebrow\" id=\"question-count\">\n</p>\n<progress id=\"test-progress\" max=\"3\" value=\"1\" aria-label=\"Progreso del recorrido\">\n</progress>\n<form id=\"test-form\">\n<fieldset>\n<legend id=\"question-title\" tabindex=\"-1\">\n</legend>\n<div id=\"question-options\">\n</div>\n</fieldset>\n<p class=\"field-error\" id=\"test-error\" role=\"alert\" hidden>Elige una opción para continuar.</p>\n<div class=\"form-actions\">\n<button class=\"button button--secondary\" type=\"button\" id=\"test-back\">Anterior</button>\n<button class=\"button button--primary\" type=\"submit\" id=\"test-next\">Continuar <svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</button>\n</div>\n</form>\n</section>\n<section class=\"question-panel\" id=\"test-result\" hidden aria-labelledby=\"result-title\">\n<p class=\"eyebrow\">Tu recorrido</p>\n<h2 class=\"type-h2\" id=\"result-title\" tabindex=\"-1\">Tus intereses,<br>en tus palabras.</h2>\n<dl id=\"result-summary\" class=\"health-list\">\n</dl>\n<p class=\"caption\">Este resumen no es una evaluación médica. Tus respuestas no se guardan ni se envían.</p>\n<div class=\"actions\">\n<a class=\"button button--primary\" href=\"{{link:valoracion-inicial}}\">Conoce la valoración<svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</a>\n<button class=\"button button--secondary\" id=\"test-reset\">Volver a empezar</button>\n</div>\n</section>\n</div>\n</div>\n</section>"
+  }
+ }
+}

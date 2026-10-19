@@ -1,0 +1,607 @@
+{
+ "pages": {
+  "inicio": {
+   "slug": "home",
+   "title": "Home",
+   "fields": {
+    "hero_titulo": "More life\nfor your years.",
+    "hero_texto": "We care for your well-being through science and technology to improve your quality of life.",
+    "hero_cta_texto": "Discover AETRA",
+    "centro_titulo": "The longevity center that focuses on you and your quality of life.",
+    "centro_texto": "<p>For decades we were taught to see a doctor when something hurts. At AETRA we believe in another way of taking care of yourself: understanding your body before it speaks, and listening carefully when it already does.</p>\n<p>We practice precision medicine that is preventive, personalized and evidence-based. We do not promise eternal youth or universal formulas: we offer precise information about your body and a plan designed only for you.</p>",
+    "centro_cta_texto": "DISCOVER AETRA",
+    "historias_titulo": "Our patients’ stories.",
+    "dra_titulo": "Dr. Paola Parra\nand her approach.",
+    "dra_texto": "<p>With more than 20 years devoted to regenerative, integrative and longevity medicine, Dr. Paola Parra has helped thousands of patients understand their health in a more complete way.</p>\n<p>Her approach combines clinical listening with the precision of measurement. For her, every patient is a unique story, not just another diagnosis.</p>",
+    "programas_titulo": "Our programs."
+   }
+  },
+  "about": {
+   "slug": "about-us",
+   "title": "About us",
+   "fields": {
+    "hero_eyebrow": "AETRA",
+    "hero_titulo": "The first longevity center in Colombia.",
+    "indicador_1": {
+     "etiqueta": "Patients cared for"
+    },
+    "indicador_2": {
+     "etiqueta": "Conditions diagnosed"
+    },
+    "indicador_3": {
+     "etiqueta": "Treatment plans"
+    },
+    "indicador_4": {
+     "etiqueta": "Years of experience"
+    },
+    "mision_titulo": "Our mission.",
+    "mision_texto": "<p>Over the years we have developed the AETRA Protocol, integrating some of the most advanced technologies in the world to bring to Colombia solutions that once seemed distant and required traveling abroad.</p>\n<p>Longevity medicine is not only about adding years, but about living them with more health, energy, autonomy and quality of life. Our goal is to extend your <em>healthspan</em>: the years you can live with physical, mental and functional fullness.</p>",
+    "tecnologia_titulo": "Diagnostic technology unique in the region.",
+    "tecnologia_texto": "<p>We measure what others estimate. We integrate non-invasive assessments of 3D body composition, mineral profile and gut health so that decisions about your health are made with precise information, not assumptions.</p>",
+    "equipo_titulo": "Meet our medical team.",
+    "test_titulo": "Not sure where to start?",
+    "test_texto": "Take a test and find some answers to take care of yourself and your years ahead."
+   }
+  },
+  "dra": {
+   "slug": "dr-paola-parra",
+   "title": "Dr. Paola Parra",
+   "fields": {
+    "hero_eyebrow": "Dr. Paola Parra",
+    "hero_titulo": "Health, beauty and well-being in harmony.",
+    "hero_texto": "More than 20 years combining integrative, functional, quantum and holistic medicine in a single personalized approach.",
+    "sobre_titulo": "About me.",
+    "sobre_texto": "<p>I have devoted myself to deepening my medical knowledge to offer a unique experience of well-being and health. I am a medical doctor and I have brought together Integrative Medicine, Functional Medicine, Quantum Medicine, and Holistic and Allopathic Medicine to give each of my patients a complete and personalized approach.</p>",
+    "enfoque_titulo": "A complete and personalized approach.",
+    "enfoque_pilares": "Integrative Medicine\nFunctional Medicine\nQuantum Medicine\nHolistic Medicine\nAllopathic Medicine",
+    "integrativa_titulo": "What is functional and integrative medicine?",
+    "integrativa_texto": "<p>It is a medical approach that seeks to understand the origin of disease, not only to relieve its symptoms. Unlike conventional medicine, which often focuses treatment on the specific diagnosis or the present symptom, this model looks at the patient as a whole, understanding that all the body’s systems are connected.</p><p>Its goal is to identify the causes of the imbalance, restore the proper functioning of the body and promote a better long-term quality of life, with evidence-based therapies and advanced diagnostic support technology.</p>",
+    "integrativa_beneficios_titulo": "Benefits of integrative medicine",
+    "integrativa_beneficios": "Seeking the root of the problem, not only controlling symptoms.\nReducing inflammatory processes.\nImproving immune system function.\nOptimizing metabolism.\nSupporting hormonal balance.\nReducing chronic pain.\nImproving sleep quality.\nIncreasing energy levels.\nSupporting the body’s detoxification.\nImproving gut health.\nComplementing conventional medical treatments.\nPromoting healthy aging.\nImproving overall quality of life.",
+    "cita_texto": "“My work does not begin when illness appears. It begins when someone decides they want to understand their body.”",
+    "cita_autor": "Dr. Paola Parra",
+    "cita_apoyo": "Medical treatments do more than improve appearance: they transform health, mind and spirit, through a methodology refined over more than 20 years that combines science and technology for visible and lasting results.",
+    "cita_sufijo": "+ years",
+    "regenerativa_titulo": "Regenerative and anti-aging medicine.",
+    "regenerativa_texto": "<p>If you are looking for a place where your health, your beauty and your well-being come together in harmony, I am the professional you need. Discover that we can work naturally with health and regenerative medicine, approaching anti-aging medicine from both the physical and the functional perspective.</p>",
+    "filosofia_titulo": "Every patient is unique.",
+    "filosofia_texto": "<p>Dr. Paola Parra’s philosophy of care is based on understanding that every patient is unique. That is why each treatment plan is built individually, combining clinical assessment, technological tools such as bioresonance and integrative therapies selected according to each person’s specific needs.</p><p>The goal is not only to relieve pain or control a disease, but to help the body regain its balance, improve its functioning and promote a better quality of life in a sustainable way.</p>",
+    "filosofia_nota": "Integrative therapies complement medical care and must be prescribed by a health professional after an assessment."
+   }
+  },
+  "equipo": {
+   "slug": "team-and-technology",
+   "title": "Team and technology",
+   "fields": {
+    "intro_titulo": "The team behind your well-being.",
+    "intro_texto": "A team with global experience, ready to work with you from diagnosis to your treatment plan and its follow-up measurements.",
+    "longevidad_titulo": "Technology for longevity",
+    "longevidad_texto": "We integrate light therapy, molecular hydrogen and microcurrents to help reduce pain and inflammation, improve skin quality and sleep, and restore your daily energy. We also support healthy aging in processes associated with memory loss and chronic fatigue, always as part of an integrated plan.",
+    "diagnostico_titulo": "Technology for diagnosis",
+    "diagnostico_texto": "We measure what others estimate. With non-invasive assessments of 3D body composition, vitamin and mineral profile and gut health, together with the bioresonance study as diagnostic support, you get data instead of impressions to design a more precise plan."
+   }
+  },
+  "hub": {
+   "slug": "conditions-and-therapies",
+   "title": "Conditions and therapies",
+   "fields": {
+    "hero_eyebrow": "Functional and integrative medicine",
+    "hero_titulo": "Conditions and therapies.",
+    "hero_texto": "We seek to understand the origin of disease, not only to relieve its symptoms. Learn about the conditions we treat and the therapies we integrate into your plan.",
+    "enfermedades_titulo": "Conditions and symptoms.",
+    "enfermedades_texto": "Functional and integrative medicine can be an excellent alternative or complement for patients who present:",
+    "terapias_titulo": "Integrative therapies.",
+    "terapias_texto": "With the information from your assessment we design an individual protocol that may combine different therapies, according to each patient’s needs."
+   }
+  },
+  "valoracion": {
+   "slug": "initial-assessment",
+   "title": "Initial assessment",
+   "fields": {
+    "hero_eyebrow": "AETRA initial assessment",
+    "hero_titulo": "The first step is listening to you.",
+    "hero_texto": "It is your starting point: a comprehensive consultation, measurements, a report and a plan.",
+    "como_titulo": "What is the assessment like?",
+    "como_texto": "<p>Every patient receives a fully personalized consultation that includes an in-depth assessment of factors like the ones you see here.</p>\n<p>In addition to the traditional medical assessment, Dr. Paola Parra includes a <a href=\"{{link:terapia-bioresonancia}}\">bioresonance study</a>, a technological tool that provides complementary information about how the body works and makes a much more precise and personalized treatment plan possible.</p>",
+    "como_nota": "Bioresonance does not replace medical judgment or conventional clinical tests: it acts as diagnostic support.",
+    "factores": "Complete medical history.\nEating habits.\nSleep quality.\nStress level.\nHormonal status.\nGut health.\nMetabolic status.\nMuscle and joint pain.\nInflammation.\nEmotional state.\nEnergy level.\nFamily history.",
+    "visita_titulo": "This is your first visit.",
+    "visita_1": {
+     "titulo": "Before.",
+     "texto": "When you book, we send you instructions to prepare. Some assessments require fasting or specific preparation."
+    },
+    "visita_2": {
+     "titulo": "During.",
+     "texto": "You will spend 60 minutes with Dr. Paola Parra and the measurements indicated for your case, in a space designed for you to feel at ease."
+    },
+    "visita_3": {
+     "titulo": "After.",
+     "texto": "Within 5 business days you will have your results appointment. We will review your report together and give you a personalized plan designed around your needs."
+    }
+   }
+  },
+  "faq": {
+   "slug": "faq",
+   "title": "Frequently asked questions",
+   "fields": {
+    "hero_eyebrow": "Frequently asked questions",
+    "hero_titulo": "Let’s talk clearly.",
+    "hero_texto": "Answers to the most common questions about the assessment, longevity medicine and our therapies."
+   }
+  },
+  "ajustes": {
+   "slug": "site-settings",
+   "title": "Site settings",
+   "fields": {
+    "banner_titulo": "Start by knowing your starting point.",
+    "cta_texto": "Book your assessment",
+    "metodo_titulo": "How does it work?",
+    "metodo_bajada": "A process, not an appointment.",
+    "paso_1": {
+     "titulo": "Measure",
+     "texto": "We assess your current state with precision technology and an in-depth medical consultation. Your story matters as much as your data."
+    },
+    "paso_2": {
+     "titulo": "Interpret",
+     "texto": "We turn the results into clear information: what is fine, what deserves attention and why."
+    },
+    "paso_3": {
+     "titulo": "Design",
+     "texto": "We build a personalized plan that may include nutrition, movement, rest, supplementation when indicated and supportive therapies."
+    },
+    "paso_4": {
+     "titulo": "Accompany",
+     "texto": "We follow up, measure again and adjust. Your plan evolves with you."
+    },
+    "metodo_cta_texto": "Discover the AETRA process",
+    "enfermedad_abordaje": "<p>Every patient receives a fully personalized consultation, with an in-depth assessment of their medical history, eating habits, sleep quality, stress level, hormonal, metabolic and gut health, pain, inflammation and emotional state.</p>\n<p>In addition to the traditional medical assessment, we include a <a href=\"{{link:terapia-bioresonancia}}\">bioresonance study</a> as diagnostic support. With all this information we design an individual protocol that may combine different therapies, according to your needs.</p>",
+    "nota_terapias": "Integrative therapies complement medical care and must be prescribed by a health professional after an assessment.",
+    "aviso_legal": "Results vary from person to person. Our services are complementary and do not replace the treatment prescribed by your physicians."
+   }
+  }
+ },
+ "programas": {
+  "core": {
+   "slug": "aetra-core",
+   "fields": {
+    "hero_texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "incluye_texto": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+    "audiencia": "Lorem ipsum dolor sit amet consectetur\nAdipiscing elit sed do eiusmod tempor\nIncididunt ut labore et dolore magna\nAliqua ut enim ad minim veniam",
+    "doctora_texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "nivel": "Essential level",
+    "resumen": "The foundation of your longevity follow-up.",
+    "doctora_titulo": "Guided by Dr. Paola Parra.",
+    "como_texto": "We measure your current state with precision technology and an in-depth medical consultation, turn the results into clear information, design a personalized plan with you and follow up to adjust it as you progress."
+   }
+  },
+  "advanced": {
+   "slug": "aetra-advanced",
+   "fields": {
+    "hero_texto": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat, for those who want to go one step further.",
+    "incluye_texto": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.",
+    "audiencia": "Nemo enim ipsam voluptatem quia voluptas\nSit aspernatur aut odit aut fugit sed quia\nConsequuntur magni dolores eos qui ratione\nVoluptatem sequi nesciunt neque porro",
+    "doctora_texto": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "nivel": "Advanced level",
+    "resumen": "Greater depth in measurement and follow-up.",
+    "doctora_titulo": "Close follow-up with Dr. Paola Parra.",
+    "como_texto": "We measure your current state with precision technology and an in-depth medical consultation, turn the results into clear information, design a personalized plan with you and follow up to adjust it as you progress."
+   }
+  },
+  "gold": {
+   "slug": "aetra-gold",
+   "fields": {
+    "hero_texto": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, the most complete AETRA experience.",
+    "incluye_texto": "Et harum quidem rerum facilis est et expedita distinctio, nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus.",
+    "audiencia": "Temporibus autem quibusdam et aut officiis\nDebitis aut rerum necessitatibus saepe eveniet\nUt et voluptates repudiandae sint et molestiae\nNon recusandae itaque earum rerum hic tenetur",
+    "doctora_texto": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+    "nivel": "Comprehensive level",
+    "resumen": "The most complete and personalized AETRA experience.",
+    "doctora_titulo": "An experience guided by Dr. Paola Parra.",
+    "como_texto": "We measure your current state with precision technology and an in-depth medical consultation, turn the results into clear information, design a personalized plan with you and follow up to adjust it as you progress."
+   }
+  }
+ },
+ "enfermedades": {
+  "dolor-cronico": {
+   "slug": "chronic-pain",
+   "title": "Chronic pain",
+   "excerpt": "Fibromyalgia, muscle, joint and low back pain, migraines, headaches and tendinitis.",
+   "content": "<p>Pain that persists over time rarely has a single cause. From functional and integrative medicine we look for the factors that sustain it —inflammation, muscle tension, changes in nervous system regulation, habits or stress— to treat its origin and not only control it.</p>\n<p>We want you to know something from the start: we listen to you, what you feel is real and it makes sense to us.</p>",
+   "fields": {
+    "titulo_largo": "Chronic pain: treating the cause, not just the symptom.",
+    "entradilla": "Living with pain changes the way you live every day. Many people come to us after years of appointments, tests and treatments that only partly helped.",
+    "condiciones": "Fibromyalgia.\nMuscle pain.\nJoint pain.\nLow back pain.\nMigraines.\nHeadaches.\nTendinitis.",
+    "seo_descripcion": "Fibromyalgia, migraines, low back, muscle or joint pain: how AETRA’s functional and integrative medicine approaches chronic pain."
+   }
+  },
+  "procesos-inflamatorios": {
+   "slug": "inflammatory-processes",
+   "title": "Inflammatory processes",
+   "excerpt": "Chronic inflammation, persistent pain and complementary support for autoimmune diseases.",
+   "content": "<p>The integrative approach seeks to reduce inflammatory processes in the body and improve immune system function, understanding that all the body’s systems are connected.</p>\n<p>In autoimmune diseases our work is complementary: we do not replace your specialists or the treatment you already receive, we support it to improve your well-being and quality of life.</p>",
+   "fields": {
+    "titulo_largo": "Chronic inflammation and autoimmune diseases.",
+    "entradilla": "Persistent inflammation can be behind pain, fatigue and general discomfort, even when conventional tests show no clear cause.",
+    "condiciones": "Chronic inflammation.\nAutoimmune diseases (as complementary support).\nPersistent pain.",
+    "seo_descripcion": "Chronic inflammation, persistent pain and complementary support for autoimmune diseases with integrative medicine at AETRA."
+   }
+  },
+  "trastornos-metabolicos": {
+   "slug": "metabolic-disorders",
+   "title": "Metabolic disorders",
+   "excerpt": "Insulin resistance, prediabetes, diabetes, overweight, obesity and metabolic syndrome.",
+   "content": "<p>We assess your metabolic status, eating habits, body composition and energy level to identify what is causing the imbalance.</p>\n<p>With that information we design a personalized plan that seeks to optimize your metabolism and, in the case of diabetes, complement the treatment prescribed by your physicians.</p>",
+   "fields": {
+    "titulo_largo": "Insulin resistance, excess weight and metabolic health.",
+    "entradilla": "Your metabolism influences your energy, your weight and your long-term health. Understanding it is the first step to optimizing it.",
+    "condiciones": "Insulin resistance.\nPrediabetes.\nDiabetes (as complementary treatment).\nOverweight.\nObesity.\nMetabolic syndrome.",
+    "seo_descripcion": "Insulin resistance, prediabetes, diabetes, overweight, obesity and metabolic syndrome: AETRA’s integrative approach."
+   }
+  },
+  "alteraciones-hormonales": {
+   "slug": "hormonal-imbalances",
+   "title": "Hormonal imbalances",
+   "excerpt": "Menopause, perimenopause, adrenal fatigue, thyroid disorders and polycystic ovaries.",
+   "content": "<p>During the assessment we evaluate your hormonal status together with your metabolism, sleep quality, stress level and gut health, because hormonal balance depends on all of them.</p>\n<p>The goal is to support hormonal balance within a comprehensive, personalized plan that complements the medical care you already receive.</p>",
+   "fields": {
+    "titulo_largo": "Menopause, thyroid and hormonal balance.",
+    "entradilla": "Hormonal changes can affect your energy, sleep, weight and mood. You do not have to accept them as inevitable.",
+    "condiciones": "Menopause.\nPerimenopause.\nAdrenal fatigue.\nThyroid disorders.\nPolycystic ovary syndrome (as support).",
+    "seo_descripcion": "Menopause, perimenopause, adrenal fatigue, thyroid disorders and polycystic ovaries: integrative medicine at AETRA."
+   }
+  },
+  "salud-digestiva": {
+   "slug": "digestive-health",
+   "title": "Digestive health",
+   "excerpt": "Irritable bowel, recurrent gastritis, bloating, constipation and intestinal disorders.",
+   "content": "<p>We assess your digestion, eating habits and possible food intolerances. When indicated, the breath test evaluates whether there is bacterial overgrowth in the small intestine, a condition associated with symptoms such as bloating.</p>\n<p>With that information we design a plan aimed at improving your gut health and reducing inflammation.</p>",
+   "fields": {
+    "titulo_largo": "Irritable bowel, gastritis and gut health.",
+    "entradilla": "Bloating, gastritis or irritable bowel are signs that your gut health needs attention, and they often affect your energy and overall well-being.",
+    "condiciones": "Irritable bowel.\nRecurrent gastritis.\nBloating.\nConstipation.\nIntestinal disorders.",
+    "seo_descripcion": "Irritable bowel, recurrent gastritis, bloating and constipation: how AETRA takes care of your gut health."
+   }
+  },
+  "salud-emocional": {
+   "slug": "emotional-health",
+   "title": "Emotional health",
+   "excerpt": "Chronic stress, anxiety, fatigue, exhaustion and sleep disorders.",
+   "content": "<p>The assessment includes your emotional state, stress level, sleep quality and energy level, along with the rest of your medical history.</p>\n<p>Depending on your needs, the plan may combine integrative therapies that help reduce anxiety and stress and promote rest.</p>",
+   "fields": {
+    "titulo_largo": "Stress, anxiety, fatigue and sleep.",
+    "entradilla": "Stress, anxiety and tiredness affect your body as much as your mind. That is why we address them as part of your health, not separately.",
+    "condiciones": "Chronic stress.\nAnxiety.\nFatigue.\nExhaustion.\nSleep disorders.",
+    "seo_descripcion": "Chronic stress, anxiety, fatigue, exhaustion and sleep disorders: AETRA’s comprehensive approach."
+   }
+  },
+  "sistema-inmune": {
+   "slug": "immune-system",
+   "title": "Immune system",
+   "excerpt": "Low immunity, slow recovery and recurrent infections.",
+   "content": "<p>Integrative medicine seeks to improve immune system function and stimulate the body’s natural defenses as part of a personalized plan.</p>\n<p>We assess your medical history, nutrition, gut health and stress level, factors that directly influence your ability to defend yourself.</p>",
+   "fields": {
+    "titulo_largo": "Low immunity and recurrent infections.",
+    "entradilla": "Getting sick often or taking a long time to recover may indicate that your immune system needs support.",
+    "condiciones": "Low immunity.\nSlow recovery.\nRecurrent infections.",
+    "seo_descripcion": "Low immunity, recurrent infections and slow recovery: how AETRA strengthens your immune system."
+   }
+  }
+ },
+ "terapias": {
+  "ozonoterapia-mayor": {
+   "slug": "major-ozone-therapy",
+   "title": "Major ozone therapy",
+   "excerpt": "One of the most widely used treatments in integrative medicine to reduce inflammation and support cellular oxygenation.",
+   "content": "<h2>What is it?</h2>\n<p>It is one of the most widely used treatments in integrative medicine.</p>\n<p>A small amount of the patient’s blood is drawn, mixed with a controlled concentration of medical ozone and then reinfused into the body.</p>",
+   "fields": {
+    "beneficios": "Reduces inflammation.\nSupports cellular oxygenation.\nStimulates the immune system.\nHelps in chronic diseases.\nSupports physical recovery.\nReduces oxidative stress.\nIncreases cellular energy production.",
+    "indicaciones": "Chronic fatigue.\nFibromyalgia.\nInflammatory diseases.\nChronic pain.\nSports recovery.\nSupport in autoimmune diseases.",
+    "nota": "",
+    "seo_descripcion": "What major ozone therapy is, its benefits and indications: inflammation, chronic fatigue, fibromyalgia and chronic pain."
+   }
+  },
+  "ozonoterapia-menor": {
+   "slug": "minor-ozone-therapy",
+   "title": "Minor ozone therapy",
+   "excerpt": "Stimulates and modulates the immune system through an intramuscular application of medical ozone.",
+   "content": "<h2>What is it?</h2>\n<p>A small blood sample is taken from the patient, mixed with medical ozone and then applied through an intramuscular injection.</p>",
+   "fields": {
+    "beneficios": "Stimulates the body’s defenses.\nModulates the immune system.\nReduces inflammatory processes.\nSupports the body’s recovery.",
+    "indicaciones": "Allergies.\nLow immunity.\nMild inflammatory processes.\nImmune prevention and strengthening.",
+    "nota": "",
+    "seo_descripcion": "What minor ozone therapy is, its benefits and indications: allergies, low immunity and mild inflammatory processes."
+   }
+  },
+  "ozonoterapia-intrarrectal": {
+   "slug": "rectal-ozone-therapy",
+   "title": "Rectal ozone therapy",
+   "excerpt": "A comfortable, minimally invasive technique that supports gut health and oxygenation.",
+   "content": "<h2>What is it?</h2>\n<p>It is a technique in which medical ozone is administered rectally using a specialized catheter.</p>\n<p>It allows rapid absorption into the bloodstream without the need for intravenous procedures.</p>",
+   "fields": {
+    "beneficios": "Improves oxygenation.\nReduces inflammation.\nSupports gut health.\nStimulates the immune system.\nIt is a comfortable, minimally invasive procedure.",
+    "indicaciones": "Digestive diseases.\nIntestinal inflammation.\nFatigue.\nChronic pain.\nMaintenance therapies.",
+    "nota": "",
+    "seo_descripcion": "What rectal ozone therapy is, its benefits and indications: gut health, inflammation, fatigue and chronic pain."
+   }
+  },
+  "homosiniatria": {
+   "slug": "homosiniatry",
+   "title": "Homosiniatry",
+   "excerpt": "Combines acupuncture with bioregulatory medicines to stimulate the body’s self-regulation.",
+   "content": "<h2>What is it?</h2>\n<p>It is a technique that combines acupuncture with the application of bioregulatory or homeopathic medicines at specific points of the body.</p>\n<p>Its goal is to stimulate the body’s natural self-regulation mechanisms.</p>",
+   "fields": {
+    "beneficios": "Reduces pain.\nReduces inflammation.\nSupports muscle recovery.\nImproves degenerative processes.\nStimulates the body’s capacity for repair.",
+    "indicaciones": "Joint pain.\nMuscle pain.\nTendinitis.\nMuscle knots.\nSports injuries.",
+    "nota": "",
+    "seo_descripcion": "What homosiniatry is, its benefits and indications: joint and muscle pain, tendinitis and sports injuries."
+   }
+  },
+  "auriculoterapia": {
+   "slug": "auriculotherapy",
+   "title": "Auriculotherapy",
+   "excerpt": "Stimulation of points on the outer ear to reduce stress and anxiety and promote rest.",
+   "content": "<h2>What is it?</h2>\n<p>It is a therapy based on stimulating specific points on the outer ear, which relate to different organs and systems of the body.</p>\n<p>It can be performed with very fine needles, seeds or small therapeutic devices.</p>",
+   "fields": {
+    "beneficios": "Reduces anxiety.\nReduces stress.\nHelps control appetite.\nPromotes rest.\nComplements pain treatments.",
+    "indicaciones": "Stress.\nAnxiety.\nInsomnia.\nMigraines.\nPain.\nWeight control.",
+    "nota": "",
+    "seo_descripcion": "What auriculotherapy is, its benefits and indications: stress, anxiety, insomnia, migraines, pain and weight control."
+   }
+  },
+  "detox": {
+   "slug": "detox-protocol",
+   "title": "Detox protocol",
+   "excerpt": "A 5-session protocol that supports the body’s natural detoxification processes.",
+   "content": "<h2>What is it?</h2>\n<p>It is a 5-session protocol designed to support the body’s natural detoxification processes, combining different integrative therapies according to each patient’s medical assessment.</p>\n<p>The treatment seeks to optimize the function of organs such as the liver, the intestine and the lymphatic system, promoting better metabolic balance.</p>",
+   "fields": {
+    "beneficios": "Supports the elimination of toxins.\nImproves energy.\nReduces inflammation.\nImproves digestion.\nSupports metabolism.\nOptimizes overall well-being.",
+    "indicaciones": "",
+    "nota": "",
+    "seo_descripcion": "What AETRA’s detox protocol (5 sessions) is: it supports detoxification, energy, digestion and metabolism."
+   }
+  },
+  "bioresonancia": {
+   "slug": "bioresonance",
+   "title": "Bioresonance study",
+   "excerpt": "A technological assessment that provides complementary information about how the body works.",
+   "content": "<h2>What is it?</h2>\n<p>It is a technological assessment that analyzes different functional parameters of the body by measuring bioenergetic responses.</p>\n<p>Its purpose is to provide information that complements the clinical examination, helping the physician identify possible imbalances in different body systems and design a more precise and personalized treatment plan.</p>\n<h2>What can it assess?</h2>\n<p>It can provide guidance on:</p>\n<ul><li>Nutritional status.</li><li>Vitamin and mineral balance.</li><li>Oxidative stress.</li><li>Metabolic function.</li><li>Digestive health.</li><li>Possible food intolerances.</li><li>Energy status.</li><li>Functional markers related to different body systems.</li></ul>",
+   "fields": {
+    "beneficios": "Allows a more comprehensive assessment.\nHelps personalize treatment.\nMakes it easier to track the patient’s progress.\nComplements the medical assessment.",
+    "indicaciones": "",
+    "nota": "Bioresonance does not replace conventional medical tests and is not a diagnosis on its own. It is used as a support tool within an integrative approach, always interpreted by the health professional together with the medical history and assessment.",
+    "seo_descripcion": "What the bioresonance study is, what it can assess and how it complements the medical assessment at AETRA."
+   }
+  },
+  "biodescodificacion": {
+   "slug": "biodecoding",
+   "title": "Biodecoding consultation",
+   "excerpt": "A 2-hour session to explore the link between emotions, life experiences and physical symptoms.",
+   "content": "<h2>What is it?</h2>\n<p>It is a 2-hour therapeutic space that explores the possible relationship between emotions, life experiences and the appearance of some physical symptoms, as a complement to comprehensive medical care.</p>\n<p>During the session we help you identify emotional conflicts, behavior patterns and stress factors that could be affecting your well-being.</p>",
+   "fields": {
+    "beneficios": "Encourages self-knowledge.\nHelps identify emotional patterns.\nComplements comprehensive stress management.\nMay contribute to emotional well-being and adherence to medical treatment.",
+    "indicaciones": "",
+    "nota": "Biodecoding does not replace medical diagnosis or treatment. It is used as a complementary tool within an integrative approach.",
+    "seo_descripcion": "What the biodecoding consultation (2 hours) is: the link between emotions, experiences and symptoms, as a medical complement."
+   }
+  },
+  "terapia-neural": {
+   "slug": "neural-therapy",
+   "title": "Neural therapy",
+   "excerpt": "Regulates the autonomic nervous system to support the body’s self-regulation and recovery.",
+   "content": "<h2>What is it?</h2>\n<p>It is a medical procedure that involves applying small amounts of local anesthetic, usually procaine, at specific points of the body —scars, nerve ganglia, muscles, joints or painful areas— in order to regulate the autonomic nervous system and support the body’s natural capacity for self-regulation and recovery.</p>\n<p>In integrative medicine it is considered a tool that seeks to restore communication between the body’s systems when it has been disrupted by inflammation, trauma, surgery, infections or chronic disease. It does not act only where the pain is: it looks at the patient as a whole to identify possible interference fields.</p>\n<h2>How does it work?</h2>\n<p>The nervous system coordinates the functioning of all the body’s organs and tissues. When this regulation is disrupted, persistent symptoms such as pain, inflammation or organ dysfunction can appear.</p>\n<p>By applying procaine at strategic points, neural therapy seeks to restore the balance of the nervous system, improve local circulation, reduce inflammation and stimulate the body’s natural repair mechanisms.</p>\n<p>The procedure is performed by a trained physician, using very fine needles and safe doses of the medication, so it is usually well tolerated with a quick recovery.</p>\n<p>Depending on the assessment, Dr. Paola Parra may combine it with ozone therapy, homosiniatry, auriculotherapy, detox protocols and functional medicine strategies.</p>",
+   "fields": {
+    "beneficios": "Helps reduce acute and chronic pain.\nContributes to reducing inflammatory processes.\nSupports regulation of the autonomic nervous system.\nStimulates the body’s natural repair processes.\nMay improve mobility and the function of muscles and joints.\nIntegrates easily with other functional and integrative treatments.\nPromotes a better quality of life by addressing the functional cause of some symptoms.",
+    "indicaciones": "Chronic pain.\nFibromyalgia.\nNeck and low back pain.\nMigraines and headaches.\nNeuralgia.\nTendinitis.\nPlantar fasciitis.\nJoint pain.\nSports injuries.\nPain after surgery or trauma.\nPainful scars or scars considered interference fields.\nStress and functional disorders related to the autonomic nervous system.",
+    "nota": "Neural therapy must be performed exclusively by a trained physician. Like any medical procedure, it requires an individual assessment to determine whether it is suitable for each patient, and it is part of a comprehensive treatment plan.",
+    "seo_descripcion": "What neural therapy is, how it works, its benefits and indications: chronic pain, fibromyalgia, migraines, neuralgia and injuries."
+   }
+  }
+ },
+ "profesionales": [
+  [
+   "Dr. Paola Parra",
+   "Integrative and Anti-Aging Medicine"
+  ],
+  [
+   "Dr. Lorem Ipsum",
+   "Medicina lorem ipsum"
+  ],
+  [
+   "Dr. Lorem Ipsum",
+   "Dolor sit amet consectetur"
+  ],
+  [
+   "Dr. Lorem Ipsum",
+   "Adipiscing elit sed do"
+  ],
+  [
+   "Dr. Lorem Ipsum",
+   "Eiusmod tempor incididunt"
+  ],
+  [
+   "Dr. Lorem Ipsum",
+   "Ut labore et dolore"
+  ]
+ ],
+ "preguntas": [
+  [
+   "Does AETRA replace my specialists or the treatment I already receive?",
+   "No. We do not replace your specialists or the treatment you already receive: we complement it. When needed, we stay in touch with your physicians."
+  ],
+  [
+   "What is longevity medicine?",
+   "It is a preventive and personalized model of care whose goal is not only to live more years, but to live them with more health, energy, autonomy and quality of life. It seeks to identify risk factors early and optimize how the body works."
+  ],
+  [
+   "Who is longevity medicine for?",
+   "For people who want to take an active role in caring for their health: adults over 30 or 40, executives, athletes, entrepreneurs, people with a family history of chronic disease, or anyone who, even feeling healthy, wants to know the true state of their body."
+  ],
+  [
+   "What is functional and integrative medicine?",
+   "It is a medical approach that seeks to understand the origin of disease, not only to relieve its symptoms, looking at the patient as a whole because all the body’s systems are connected."
+  ],
+  [
+   "How long is the first visit?",
+   "You will spend 60 minutes with Dr. Paola Parra and the measurements indicated for your case."
+  ],
+  [
+   "Do I need to prepare for the assessment?",
+   "Yes. When you book, we send you instructions to prepare. Some assessments require fasting or specific preparation."
+  ],
+  [
+   "When do I get my results?",
+   "Within 5 business days you will have your results appointment. We will review your report together and give you a personalized plan."
+  ],
+  [
+   "Is bioresonance a diagnosis?",
+   "Not on its own. It is a support tool that provides complementary information; it does not replace conventional medical tests and is always interpreted by the health professional together with your medical history."
+  ],
+  [
+   "Is neural therapy safe?",
+   "It must be performed exclusively by a trained physician, with very fine needles and safe doses of the medication, so it is usually well tolerated. Like any medical procedure, it requires an individual assessment."
+  ],
+  [
+   "Which conditions can be treated?",
+   "We support chronic pain, inflammatory processes, metabolic disorders, hormonal imbalances, digestive health, emotional health and the immune system. Learn more in <a href=\"{{link:enfermedades-y-terapias}}\">Conditions and therapies</a>."
+  ]
+ ],
+ "legado": {
+  "terminos": {
+   "slug": "terms",
+   "title": "Terms and privacy",
+   "content": "<section class=\"section\">\n<div class=\"container legal-layout\">\n<aside>\n<div class=\"section-label eyebrow\">\n<span>01</span>\n<span>/ Legal information</span>\n</div>\n<h1 class=\"type-h1\">Terms and<br>privacy.</h1>\n<nav class=\"legal-nav\" aria-label=\"Legal sections\">\n<a class=\"text-link\" href=\"#terminos\">Site terms</a>\n<a class=\"text-link\" href=\"#privacidad\">Privacy</a>\n<a class=\"text-link\" href=\"#contenidos\">Content status</a>\n</nav>\n</aside>\n<div class=\"legal-copy\">\n<section id=\"terminos\">\n<h2 class=\"type-h3\">Terms and conditions</h2>\n<p class=\"caption pending\">Pending approved content · legal text, site owner, identification and terms of use. This space does not constitute final terms.</p>\n</section>\n<section id=\"privacidad\">\n<h2 class=\"type-h3\">Privacy</h2>\n<p class=\"caption pending\">Pending approved content · data processing policy, data controller, channels and authorizations.</p>\n<p>This version of the site does not submit forms, use analytics or store answers from the interests journey. Answers remain only in memory while the page is open.</p>\n</section>\n<section id=\"contenidos\">\n<h2 class=\"type-h3\">Content status</h2>\n<p>Spaces marked as pending require approved information before publication. Conceptual images do not represent patients or treatment results.</p>\n<p>Booking, testimonials, the clinical test and the final program catalog are pending integration or approval.</p>\n</section>\n</div>\n</div>\n</section>"
+  },
+  "contacto": {
+   "slug": "contact",
+   "title": "Contact",
+   "content": "<section class=\"section contact-intro surface-dark\">\n<div class=\"container\">\n<div class=\"section-label eyebrow\">\n<span>01</span>\n<span>/ Contact</span>\n</div>\n<h1 class=\"type-display reveal-up\">Let’s start<br>by listening to you.</h1>\n<p class=\"section-copy type-body-large\">The first step is a conversation.</p>\n</div>\n</section>\n<section class=\"section\">\n<div class=\"container contact-layout\">\n<div>\n<h2 class=\"type-h2\">Our channels.</h2>\n<dl class=\"health-list\">\n<div>\n<dt>Phone / WhatsApp</dt>\n<dd>To be confirmed</dd>\n</div>\n<div>\n<dt>Email</dt>\n<dd>To be confirmed</dd>\n</div>\n<div>\n<dt>Address</dt>\n<dd>To be confirmed</dd>\n</div>\n<div>\n<dt>Opening hours</dt>\n<dd>To be confirmed</dd>\n</div>\n</dl>\n<p class=\"caption pending\">Pending approved content · official contact details.</p>\n<div class=\"section-rule line-reveal\">\n</div>\n<a class=\"text-link\" href=\"{{link:preguntas-frecuentes}}\">Frequently asked questions<svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</a>\n</div>\n<section class=\"glass glass--light glass--02 glass-card scale-reveal\" aria-labelledby=\"contact-title\">\n<p class=\"eyebrow\">Contact request</p>\n<h2 class=\"type-h3\" id=\"contact-title\">Your next step.</h2>\n<p class=\"body-small\">Form in preparation. Submission will be available once the channels and the privacy policy are confirmed.</p>\n<form>\n<fieldset disabled>\n<div class=\"form-grid\">\n<div class=\"field\">\n<label for=\"name\">Name</label>\n<input id=\"name\" name=\"name\" autocomplete=\"name\" placeholder=\"Your name\">\n</div>\n<div class=\"field\">\n<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"email\" autocomplete=\"email\" placeholder=\"Your email\">\n</div>\n<div class=\"field field-wide\">\n<label for=\"reason\">Reason for contact</label>\n<select id=\"reason\" name=\"reason\">\n<option>Initial assessment</option>\n<option>General information</option>\n</select>\n</div>\n<div class=\"field field-wide\">\n<button class=\"button button--primary\" disabled>Submission coming soon</button>\n</div>\n</div>\n</fieldset>\n</form>\n<p class=\"caption\">No data is received or stored in this version.</p>\n<a class=\"text-link\" href=\"{{link:valoracion-inicial}}\">About the assessment<svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</a>\n</section>\n</div>\n</section>"
+  },
+  "articulos": {
+   "slug": "articles",
+   "title": "Articles",
+   "content": "<section class=\"section\">\n<div class=\"container\">\n<div class=\"journal-heading\">\n<div class=\"section-label eyebrow\">\n<span>01</span>\n<span>/ Science / Resources</span>\n</div>\n<h1 class=\"type-h1 reveal-up\">Understanding is also<br>part of care.</h1>\n<p class=\"type-body section-copy\">AETRA’s editorial space.</p>\n</div>\n<div class=\"journal-feature\">\n<div class=\"image-frame image-reveal\">\n<img class=\"\" src=\"{{img:glass-study.png}}\" alt=\"Editorial study of glass and light\" loading=\"lazy\" width=\"1536\" height=\"1024\">\n</div>\n<div>\n<p class=\"eyebrow\">Edition in preparation</p>\n<h2 class=\"type-h2 reveal-up\">A comprehensive look<br>at your health.</h2>\n<p class=\"caption pending\">Pending approved content · articles, sources, authorship and medical review. No studies or articles are published in this version.</p>\n</div>\n</div>\n</div>\n</section>\n<section class=\"section\">\n<div class=\"container\">\n<div class=\"three-up\">\n<article class=\"editorial-card reveal-up\" id=\"integral\">\n<p class=\"eyebrow\">01 / Article</p>\n<h2 class=\"type-h3\">A comprehensive look at your health</h2>\n<p class=\"caption pending\">Pending approved content · editorial content, authorship and publication date.</p>\n</article>\n<article class=\"editorial-card reveal-up\" id=\"conversacion\">\n<p class=\"eyebrow\">02 / Conversation</p>\n<h2 class=\"type-h3\">Discover the AETRA approach</h2>\n<p class=\"caption pending\">Pending approved content · editorial content, authorship and publication date.</p>\n</article>\n<article class=\"editorial-card reveal-up\" id=\"guia\">\n<p class=\"eyebrow\">03 / Guide</p>\n<h2 class=\"type-h3\">Preparing for your first assessment</h2>\n<p class=\"caption pending\">Pending approved content · editorial content, authorship and publication date.</p>\n</article>\n</div>\n</div>\n</section>\n<section class=\"section final-cta surface-dark\">\n<div class=\"container relative\">\n<svg class=\"aetra-graphic editorial-arc\" viewBox=\"0 0 200 160\" aria-hidden=\"true\">\n<use href=\"#AetraArc\">\n</use>\n</svg>\n<div class=\"cta-copy\">\n<div class=\"section-label eyebrow\">\n<span>AETRA</span>\n<span>/ The first step</span>\n</div>\n<h2 class=\"type-h2 reveal-up\">Your health deserves<br>to be understood.</h2>\n<p class=\"section-copy\">Learn about the assessment and let’s start with your story.</p>\n<a class=\"button button--light\" href=\"{{link:valoracion-inicial}}\">Book your assessment<svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</a>\n</div>\n</div>\n</section>"
+  },
+  "test-longevidad": {
+   "slug": "longevity-test",
+   "title": "Longevity test",
+   "content": "<section class=\"section\">\n<div class=\"container test-layout\">\n<aside>\n<div class=\"section-label eyebrow\">\n<span>01</span>\n<span>/ Longevity test</span>\n</div>\n<h1 class=\"type-h1 reveal-up\">A pause<br>to think<br>\n<em>about you.</em>\n</h1>\n<p class=\"section-copy\">Explore the topics you would like to talk about.</p>\n<p class=\"caption pending section-copy\">Interaction preview. The clinical questionnaire is pending approval. This journey only summarizes your preferences; it does not assess your health or calculate your longevity.</p>\n<svg class=\"aetra-graphic editorial-arc\" viewBox=\"0 0 200 160\" aria-hidden=\"true\">\n<use href=\"#AetraArc\">\n</use>\n</svg>\n</aside>\n<div>\n<noscript>\n<p class=\"question-panel\">Enable JavaScript to explore the journey. You can also <a class=\"text-link\" href=\"{{link:valoracion-inicial}}\">learn about the initial assessment</a>.</p>\n</noscript>\n<section class=\"question-panel\" id=\"interest-test\" hidden aria-label=\"Interests exploration\">\n<p class=\"eyebrow\" id=\"question-count\">\n</p>\n<progress id=\"test-progress\" max=\"3\" value=\"1\" aria-label=\"Journey progress\">\n</progress>\n<form id=\"test-form\">\n<fieldset>\n<legend id=\"question-title\" tabindex=\"-1\">\n</legend>\n<div id=\"question-options\">\n</div>\n</fieldset>\n<p class=\"field-error\" id=\"test-error\" role=\"alert\" hidden>Choose an option to continue.</p>\n<div class=\"form-actions\">\n<button class=\"button button--secondary\" type=\"button\" id=\"test-back\">Back</button>\n<button class=\"button button--primary\" type=\"submit\" id=\"test-next\">Continue <svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</button>\n</div>\n</form>\n</section>\n<section class=\"question-panel\" id=\"test-result\" hidden aria-labelledby=\"result-title\">\n<p class=\"eyebrow\">Your journey</p>\n<h2 class=\"type-h2\" id=\"result-title\" tabindex=\"-1\">Your interests,<br>in your words.</h2>\n<dl id=\"result-summary\" class=\"health-list\">\n</dl>\n<p class=\"caption\">This summary is not a medical assessment. Your answers are not saved or sent.</p>\n<div class=\"actions\">\n<a class=\"button button--primary\" href=\"{{link:valoracion-inicial}}\">About the assessment<svg class=\"icon\" aria-hidden=\"true\">\n<use href=\"#i-arrow\">\n</use>\n</svg>\n</a>\n<button class=\"button button--secondary\" id=\"test-reset\">Start over</button>\n</div>\n</section>\n</div>\n</div>\n</section>"
+  }
+ },
+ "strings": {
+  "Saltar al contenido": "Skip to content",
+  "Escríbenos": "Message us",
+  "Idioma": "Language",
+  "AETRA, inicio": "AETRA, home",
+  "Navegación principal": "Main navigation",
+  "Navegación móvil": "Mobile navigation",
+  "Abrir menú": "Open menu",
+  "Cerrar menú": "Close menu",
+  "AETRA / Explorar": "AETRA / Explore",
+  "Privacidad": "Privacy",
+  "Anterior": "Previous",
+  "Siguiente": "Next",
+  "Reproducir video: ": "Play video: ",
+  "Cerrar": "Close",
+  "Conoce su historia": "Discover her story",
+  "Leer más": "Read more",
+  "Ver más": "Learn more",
+  "Inicio": "Home",
+  "Ruta de navegación": "Breadcrumb",
+  "Test de longevidad": "Longevity test",
+  "Conoce las enfermedades y terapias": "Explore conditions and therapies",
+  "Video próximamente.": "Video coming soon.",
+  "Instagram de AETRA": "AETRA on Instagram",
+  "Facebook de AETRA": "AETRA on Facebook",
+  "AETRA by Dra. Paola Parra. Centro de longevidad y medicina regenerativa.": "AETRA by Dr. Paola Parra. Longevity and regenerative medicine center.",
+  "Programa": "Program",
+  "Programas": "Programs",
+  "El proceso": "The process",
+  "¿Cómo funciona?": "How does it work?",
+  "El programa": "The program",
+  "¿Qué incluye?": "What does it include?",
+  "Ideal para ti": "Ideal for you",
+  "¿A quién va dirigido?": "Who is it for?",
+  "Nuestros programas.": "Our programs.",
+  "Elige el nivel de acompañamiento que necesitas. Todos parten de una valoración médica integral con la Dra. Paola Parra.": "Choose the level of support you need. All of them start with a comprehensive medical assessment with Dr. Paola Parra.",
+  "Enfermedades y terapias": "Conditions and therapies",
+  "Enfermedades": "Conditions",
+  "Terapias": "Therapies",
+  "Enfermedad": "Condition",
+  "Terapia": "Therapy",
+  "Síntomas y condiciones que acompañamos": "Symptoms and conditions we treat",
+  "Cómo lo abordamos": "How we approach it",
+  "Terapias que pueden integrarse en tu plan": "Therapies that can be part of your plan",
+  "Ver todas las enfermedades y terapias": "See all conditions and therapies",
+  "Beneficios": "Benefits",
+  "Indicaciones frecuentes": "Common indications",
+  "Puede ayudarte en": "It can help with",
+  "Error 404": "Error 404",
+  "No encontramos esta página.": "We couldn’t find this page.",
+  "Es posible que se haya movido o que la dirección no sea correcta.": "It may have moved, or the address may be incorrect.",
+  "Volver al inicio": "Back to home",
+  "No hay contenido.": "There is no content.",
+  "Pregunta {n} de {total}": "Question {n} of {total}",
+  "Selecciona una opción para continuar.": "Select an option to continue.",
+  "← Anterior": "← Back",
+  "Continuar": "Continue",
+  "Ver mi resultado": "See my result",
+  "Tu resultado": "Your result",
+  "Resultado orientativo y simulado. No constituye un diagnóstico médico.": "Indicative, simulated result. It is not a medical diagnosis.",
+  "Agenda tu primera visita a AETRA": "Book your first visit to AETRA",
+  "Repetir test": "Retake test",
+  "Cerrar test": "Close test",
+  "Test completado": "Test completed",
+  "¿Cuántas horas duermes al día?": "How many hours do you sleep a day?",
+  "Menos de 6 horas": "Less than 6 hours",
+  "Entre 6 y 7 horas": "Between 6 and 7 hours",
+  "8 horas o más": "8 hours or more",
+  "¿Cuántos vasos de agua tomas al día?": "How many glasses of water do you drink a day?",
+  "Menos de 4 vasos": "Less than 4 glasses",
+  "Entre 4 y 7 vasos": "Between 4 and 7 glasses",
+  "8 vasos o más": "8 glasses or more",
+  "¿De dónde tomas el agua que consumes?": "Where does the water you drink come from?",
+  "Directamente del grifo": "Straight from the tap",
+  "Del grifo, pero filtrada o hervida": "From the tap, but filtered or boiled",
+  "Agua embotellada o purificada": "Bottled or purified water",
+  "Tu bienestar necesita atención.": "Your well-being needs attention.",
+  "Vas por buen camino.": "You’re on the right track.",
+  "Tus hábitos son un gran punto de partida.": "Your habits are a great starting point.",
+  "Tus intereses": "Your interests",
+  "Ver mis intereses": "See my interests",
+  "Continuar →": "Continue →",
+  "¿Qué tema te gustaría explorar?": "Which topic would you like to explore?",
+  "Energía y vitalidad": "Energy and vitality",
+  "Sueño y descanso": "Sleep and rest",
+  "Estrés y bienestar": "Stress and well-being",
+  "Una mirada integral": "A comprehensive view",
+  "¿Cómo prefieres conocer AETRA?": "How would you like to get to know AETRA?",
+  "Leer sobre el enfoque": "Read about the approach",
+  "Conocer al equipo": "Meet the team",
+  "Explorar la valoración inicial": "Explore the initial assessment",
+  "¿Qué te gustaría conocer después?": "What would you like to learn next?",
+  "Cómo es la primera consulta": "What the first consultation is like",
+  "Qué temas se exploran": "Which topics are explored",
+  "Los canales de contacto": "Contact channels",
+  "Centro de longevidad y medicina regenerativa": "Longevity and regenerative medicine center"
+ },
+ "media_alt": {
+  "pareja.png": "Older couple walking and smiling in a garden",
+  "abuelo-futbol.png": "Grandfather playing soccer with his grandson",
+  "abuelo-nieto-flip.png": "Grandfather lifting his grandson",
+  "horizonte-empresario-flip.png": "Businessman smiling in front of a window overlooking the city",
+  "mujer-padel-flip.png": "Woman smiling while playing padel",
+  "abuelo-nieto.png": "Grandfather lifting his grandson",
+  "horizonte-empresario.png": "Businessman smiling in front of a window overlooking the city",
+  "mujer-padel.png": "Woman smiling while playing padel",
+  "recepcion.png": "AETRA reception, a patient talking with the receptionist",
+  "draparra-escritorio.png": "Medical consultation in the office",
+  "draparra-croma.png": "Dr. Paola Parra",
+  "draparra-silueta.png": "Dr. Paola Parra",
+  "dra-parra-profile.png": "Dr. Paola Parra",
+  "paola-parra-brandbook.png": "Dr. Paola Parra in her office",
+  "contrapicado-parra-flip.png": "Dr. Paola Parra",
+  "movement-study.png": "Patient during a mobility assessment",
+  "glass-study.png": "Glass object reflecting light, a symbol of a tailored plan",
+  "architecture-brandbook.png": "Architectural space from the brand book"
+ }
+}

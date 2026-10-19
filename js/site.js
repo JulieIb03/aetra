@@ -233,3 +233,39 @@ document.querySelectorAll('.video-preview').forEach(btn => btn.addEventListener(
     modal.showModal();
   }));
 })();
+// Floating test button: hidden on load, appears once the user scrolls down.
+(() => {
+  const fab = document.querySelector('.test-fab');
+  if (!fab) return;
+  const update = () => fab.classList.toggle('is-shown', window.scrollY > 60);
+  window.addEventListener('scroll', update, {passive: true});
+  update();
+})();
+// Stories: each .story-card opens a YouTube embed (data-youtube = video id) in a modal, title below.
+(() => {
+  const modal = document.getElementById('story-modal');
+  if (!modal) return;
+  const frame = document.getElementById('story-modal-frame');
+  const title = document.getElementById('story-modal-title');
+  const reset = () => { frame.replaceChildren(); frame.style.aspectRatio = ''; frame.style.maxWidth = ''; };
+  document.querySelectorAll('.story-card').forEach(card => card.addEventListener('click', () => {
+    const id = (card.dataset.youtube || '').trim();
+    const ratio = card.dataset.ratio || '16/9';
+    title.textContent = card.querySelector('.story-title')?.textContent.trim() || '';
+    reset();
+    frame.style.aspectRatio = ratio;
+    if (ratio === '9/16') frame.style.maxWidth = 'min(360px, 100%)';
+    if (id) {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&rel=0&playsinline=1`;
+      iframe.title = title.textContent;
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+      iframe.allowFullscreen = true;
+      frame.append(iframe);
+    } else {
+      frame.textContent = 'Video próximamente.';
+    }
+    modal.showModal();
+  }));
+  modal.addEventListener('close', reset);
+})();
